@@ -13,7 +13,7 @@ campaigns against abusive uses of technology, acting to strengthen
 access to human rights in the digital world. 
 
 <div>
-  <img src="/Portrait.jpg" class="sm:w-1/2 mx-auto rounded-image" alt="A portrait of Eliot">
+  <img src="../src/assets/images/Portrait.jpg" class="sm:w-1/2 mx-auto rounded-image" alt="A portrait of Eliot">
 </div>
 
 Some of my work, such as "Your mental health for sale" that exposed the collection and sharing of 
@@ -32,6 +32,6 @@ privacy and security.
 
 Long time music producer, singer and multi-instrumentist, I actively release music as BENDY 
 I'm an active member of Kick-que-Coûte and Cerca. You can listen to my music on all those platforms:
-- BENDY (solo project): [Spotify](https://open.spotify.com/artist/1aWBhY8XJgHH0o9YRLscBP?si=f46n2jARThak5zyNYwXr6g), [Deezer](https://www.deezer.com/fr/artist/162447027), [Apple Music](https://music.apple.com/us/artist/bendy/1598816209), [Faircamp](htpps://music.bndy.org) (own platform), [Bandcamp](sloppybendy.bandcamp.com), [Soundcloud](https://soundcloud.com/sloppybendy/) 
+- BENDY (solo project): [Spotify](https://open.spotify.com/artist/1aWBhY8XJgHH0o9YRLscBP?si=f46n2jARThak5zyNYwXr6g), [Deezer](https://www.deezer.com/fr/artist/162447027), [Apple Music](https://music.apple.com/us/artist/bendy/1598816209), [Faircamp](https://music.bndy.org) (own platform), [Bandcamp](sloppybendy.bandcamp.com), [Soundcloud](https://soundcloud.com/sloppybendy/) 
 - Kick-que-Coûte (duo): [Spotify](https://open.spotify.com/artist/0qQi34NXAIPXcYLYBATWxm?si=M10cSYZ1T7OtDIINAR6G2Q), [Deezer](https://www.deezer.com/fr/artist/274440811), [Apple Music](https://music.apple.com/us/artist/kick-que-co%C3%BBte/1758504934), [Soundcloud](https://soundcloud.com/kick-que-coute/)
 - Cerca (lead singer): [Bandcamp](https://cerca.bandcamp.com/album/rebirth)

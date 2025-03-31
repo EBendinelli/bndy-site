@@ -14,12 +14,21 @@
 } */
 
 html[data-theme="light"] {
+  --background: #fafcfc;
+  --foreground: #222e36;
+  --accent: #d3006a;
+  --muted: #f1bad4;
+  --border: #e3a9c6;
+}
+
+/* MY VERSION */
+/* html[data-theme="light"] {
   --background: #F3E9DC;
   --foreground: #161925;
-  --accent: #006cac;
+  --accent: #B13E5B;
   --muted: #e6e6e6;
-  --border: #ece9e9;
-}
+  --border: #2E3644;
+} */
 
 /* 
  html[data-theme="dark"] {
@@ -57,11 +66,12 @@ html[data-theme="light"] {
   --border: #8EA8C3;
 } */
 
+
 /* AWAKE 1 inspired https://coolors.co/fed0bb-f3e9dc-2e3644-192534-c75e79 */
 html[data-theme="dark"] {
   --background: #161925;
   --foreground: #F3E9DC;
-  --accent: #C75E79;
+  --accent: #C9647D;
   --muted: #2E3644;
   --border: #FED0BB;
 } 
