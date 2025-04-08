@@ -12,7 +12,7 @@ import { SITE } from "@/config";
 
 export const getStaticPaths = (async ({ paginate }) => {
   const projects = await getCollection("projects", ({ data }) => !data.draft);
-  return paginate(getSortedPosts(projects), { pageSize: SITE.postPerPage });
+  return paginate(projects, { pageSize: SITE.postPerPage });
 }) satisfies GetStaticPaths;
 
 
