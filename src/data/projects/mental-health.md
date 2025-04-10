@@ -1,14 +1,14 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
+title: 'Your mental health for sale'
+description: A technical research that exposed the collection and sharing of sensitive health data, has obtained coverage in major newspapers, creating impact in the form of regulatory action and changes in company practices.
 category: "Digital Rights"
 featured: true
-pubDateTime: '2024-02-10'
-slug: project-1
-coverImage: ../../assets/images/projects/cover-test.jpg
+pubDateTime: '2018-06-10'
+slug: mental-health-for-sale-research
+coverImage: ../../assets/images/projects/mental-health-project.png
 seo:
   image:
-    src: '/project-1.jpg'
+    src: '../../assets/images/projects/mental-health-project.png'
     alt: Project preview
 ---
 

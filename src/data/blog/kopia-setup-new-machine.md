@@ -76,9 +76,10 @@ kopia snapshot list --all
 
 The result should look something like this:
 
-![[Pasted image 20250327221734.png]]
+![Screenshot](@/assets/images/blog/kopia-1.png)
 
-It will be organised by user and directories
+It will be organised by user and directories.
+
 ## Restoring data
 
 If you're working from a new machine/server and want to restore your data, now is the time to do it. To do so, use the [`kopia restore`](https://kopia.io/docs/reference/command-line/common/restore/) command to restore the latest snapshot. You'll find the ID for this snapshot in the output of the last command.

@@ -13,6 +13,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
+import { Image } from "astro:assets";
 
 export interface Props {
   project: CollectionEntry<"project">;
@@ -26,8 +27,9 @@ const {
   author,
   description,
   ogImage: initOgImage,
+  coverImage,
   canonicalURL,
-  publishDate,
+  pubDateTime,
   modDatetime,
   timezone,
   tags,
@@ -59,7 +61,7 @@ const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
   description,
-  publishDate,
+  pubDateTime,
   modDatetime,
   canonicalURL,
   ogImage,
@@ -99,9 +101,21 @@ const nextProject =
       {title}
     </h1>
     <div class="flex items-center gap-4">
-      <Datetime {publishDate} showTime={false} size="lg" class="my-2" />
+      <Datetime {pubDateTime} showTime={false} size="lg" class="my-2" />
     </div>
-    <article id="article" class="mx-auto prose mt-8 max-w-3xl">
+    
+    <article id="article" class="mx-auto prose mt-8 max-w-3xl"></article>
+    {coverImage && (
+      <div class="my-8">
+        {typeof coverImage === "string" ? (
+          <img src={coverImage} alt={title} class="rounded-lg" />
+        ) : (
+          <Image src={coverImage} alt={title} class="rounded-lg" />
+        )}
+      </div>
+    )}
+
+    <article id="article" class="mx-auto prose mt-8 max-w-4xl">
       <Content />
     </article>
 

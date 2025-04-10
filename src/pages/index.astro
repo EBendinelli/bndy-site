@@ -12,12 +12,18 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
+import ProjectCard from "@/components/ProjectCard.astro";
 
 const posts = await getCollection("blog");
+const projects = await getCollection("projects", ({ data }) => !data.draft);
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+// Sort projects by publication date (newest first) and filter featured ones
+const sortedProjects = projects.sort((a, b) => b.data.pubDateTime.valueOf() - a.data.pubDateTime.valueOf());
+const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slice(0, 3); // Get top 3 featured projects
 ---
 
 <Layout>
@@ -58,6 +64,26 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     </section>
 
     <Hr />
+
+    {
+      featuredProjects.length > 0 && (
+        <>
+          <section id="featured-work" class="pt-12 pb-6">
+            <h2 class="text-2xl font-semibold tracking-wide mb-6">Featured Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {featuredProjects.map(project => <ProjectCard {...project} />)}
+            </div>
+            <div class="mt-6 text-center">
+              <LinkButton href="/projects/">
+                View All Projects
+                <IconArrowRight class="inline-block" />
+              </LinkButton>
+            </div>
+          </section>
+          <Hr />
+        </>
+      )
+    }
 
     {
       featuredPosts.length > 0 && (

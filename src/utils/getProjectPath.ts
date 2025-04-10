@@ -1,8 +1,6 @@
 import { PROJECTS_PATH } from "@/content.config";
 import { slugifyStr } from "./slugify";
 
-console.error("ok");
-
 /**
  * Get full path of a project
  * @param id - id of the project (aka slug)

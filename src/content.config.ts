@@ -26,12 +26,16 @@ const blog = defineCollection({
 
 const projects = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: `./${PROJECTS_PATH}` }),
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string().optional(),
-    publishDate: z.coerce.date(),
-    isFeatured: z.boolean().default(false),
+    category: z.string().optional(),
+    pubDateTime: z.coerce.date(),
+    featured: z.boolean().default(false),
+    draft: z.boolean().default(false),
     tags: z.array(z.string()).default(["others"]),
+    ogImage: image().or(z.string()).optional(),
+    coverImage: image().or(z.string()).optional(),
   })
 });
 
