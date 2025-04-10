@@ -68,12 +68,21 @@ html[data-theme="light"] {
 
 
 /* AWAKE 1 inspired https://coolors.co/fed0bb-f3e9dc-2e3644-192534-c75e79 */
-html[data-theme="dark"] {
+/* html[data-theme="dark"] {
   --background: #161925;
   --foreground: #F3E9DC;
   --accent: #C9647D;
   --muted: #2E3644;
   --border: #FED0BB;
+} */
+
+/* NEW DARK THEME - Inspired by light theme with a cohesive color palette */
+html[data-theme="dark"] {
+  --background: #121620;  /* Darker deep blue-gray background */
+  --foreground: #f0f4f8;  /* Light blue-white text */
+  --accent: #ff6b9c;      /* Vibrant pink accent (complementary to light theme's pink) */
+  --muted: #2d3748;       /* Darker blue-gray for muted elements */
+  --border: #3d4a63;      /* Medium blue-gray for borders */
 } 
 
 @theme inline {
