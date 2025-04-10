@@ -43,19 +43,34 @@ const projectsByCategory = page.data.reduce((acc, project) => {
 
 // Get all unique categories from the current page
 const categories = Object.keys(projectsByCategory).sort();
+
+// Function to create a URL-friendly ID from a category name
+const getCategoryId = (category: string) => {
+  return category.toLowerCase().replace(/\s+/g, '-');
+};
 ---
 
 <Layout title={`Projects | ${SITE.title}`}>
   <Header />
   <Main pageTitle="Projects" pageDesc="Some personal projects, notable work and media apparitions">
-    {categories.map(category => (
-      <div class="mb-12">
-        <h2 class="text-2xl font-bold mb-6 text-accent">{category}</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {projectsByCategory[category].map(project => <ProjectCard {...project} />)}
+    {categories.map(category => {
+      const categoryId = getCategoryId(category);
+      return (
+        <div class="mb-12" id={categoryId}>
+          <h2 class="text-2xl font-bold mb-6 text-accent group">
+            {category}<a 
+              href={`#${categoryId}`} 
+              class="ml-2 text-sm opacity-0 group-hover:opacity-70 hover:opacity-100 transition-opacity" 
+              aria-label={`Link to ${category} section`}
+              title="Copy link to section"
+            >🔗</a>
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {projectsByCategory[category].map(project => <ProjectCard {...project} />)}
+          </div>
         </div>
-      </div>
-    ))}
+      );
+    })}
   </Main>
 
   <Pagination {page} />
