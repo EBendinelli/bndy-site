@@ -1,9 +1,9 @@
 ---
-title: 'Your mental health for sale'
+title: 'Your Mental Health for Sale'
 description: A technical research that exposed the collection and sharing of sensitive health data, has obtained coverage in major newspapers, creating impact in the form of regulatory action and changes in company practices.
 category: "Digital Rights"
 featured: true
-pubDateTime: '2018-06-10'
+pubDateTime: '2019-09-03'
 slug: mental-health-for-sale-research
 coverImage: ../../assets/images/projects/mental-health-project.png
 seo:
@@ -12,59 +12,42 @@ seo:
     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+In 2019 at Privacy International, I led a project looking into online tracking and profiling practices of websites addressing depression. The aim of the project, named [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), was to expose how intimate data about us can be collected, shared and processed by third parties, without users consent or knowledge.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+I conducted technical research and [co-produced a report](https://privacyinternational.org/node/3193) exposing the abusive data collection practices of some publishers including sharing answers to depression tests with third parties without informing users and loading marketing trackers before consent.
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+Following this work, a number of websites mentioned in the report [changed their practices](https://privacyinternational.org/report/3351/mental-health-websites-dont-have-sell-your-data-most-still-do) to reduce or eliminate data sharing of intimate information with third-parties.
 
-## Objectives
+This research served as the basis for a [complaint against Doctissimo](https://privacyinternational.org/legal-action/complaint-against-doctissimo) to French data authority CNIL, one of the worst offender that did not change its practices following the report. This complaint led to the company [being fined 380,000€](https://www.cnil.fr/en/health-data-and-use-cookies-doctissimo-fined-eu380000) in May 2023 for GDPR infringement.
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+![CNIL's announcement of the Doctissimo fine](@/assets/images/projects/mental-health-cnil-screenshot.png)
 
-## Features
+This work obtained coverage in major newspapers and was presented at Blackhat London 2019 ([slides](https://i.blackhat.com/eu-19/Wednesday/eu-19-Bendinelli-Is-Your-Mental-Health-For-Sale.pdf))
 
-1. **EcoScore and Challenges:**
+Media coverage:
+- [Financial Times](https://www.ft.com/content/0fbf4d8e-022b-11ea-be59-e49b2a136b8d)
+- [Le Monde](https://www.lemonde.fr/economie/article/2019/09/04/donnees-personnelles-les-mauvaises-pratiques-des-sites-de-sante_5506226_3234.html)
+- [BBC](https://www.bbc.co.uk/news/technology-49578500)
+- [IAPP](https://iapp.org/resources/article/your-mental-health-for-sale-privacy-international-report/)
+- [TechCrunch](https://techcrunch.com/2019/09/04/mental-health-websites-in-europe-found-sharing-user-data-for-ads/)
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+Recording of the Blackhat presentation:
 
-2. **Personalized Eco-Goals:**
+<div class="relative w-full" style="padding-bottom: 56.25%;">
+  <iframe 
+    title="Is Your Mental Health for Sale?" 
+    class="absolute top-0 left-0 w-full h-full"
+    src="https://media.privacyinternational.org/videos/embed/22b01a52-e9bb-4de1-8bc5-14203a4621e3" 
+    frameborder="0" 
+    allowfullscreen="" 
+    sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+  </iframe>
+</div>
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+Role: 
+- Project manager
+- Researcher
 
-3. **Green Rewards Marketplace:**
-
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
-
-4. **Community Hub:**
-
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
-
-5. **EcoEducator AI Assistant:**
-
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
-
-## Technology Stack
-
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
-
-## Outcome
-
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
-
-## Client Testimonial
-
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Technical tools used: 
+- [HTTPToolkit](https://httptoolkit.com/) for network interception and analysis
+- WebXRay (now defunct) for cookie and requests classification     

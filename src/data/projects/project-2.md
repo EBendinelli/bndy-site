@@ -1,7 +1,7 @@
 ---
 title: 'Welcomango'
 description:  A plateform to create a link between travelers and locals.
-category: "Coding"
+category: "Tech"
 featured: true
 pubDateTime: '2016-06-10'
 slug: project-2
