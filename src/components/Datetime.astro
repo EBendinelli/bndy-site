@@ -26,8 +26,6 @@ const {
   showTime = true,
 } = Astro.props;
 
-console.log(showTime);
-
 /* ========== Formatted Datetime ========== */
 const latestDatetime =
   modDatetime && modDatetime > pubDatetime ? modDatetime : pubDatetime;
@@ -57,8 +55,6 @@ const time = datetime.format("hh:mm A"); // e.g., '08:30 PM'
     <time datetime={datetime.toISOString()}>{date}</time>
     {showTime && (
       <>
-        <span aria-hidden="true"> | </span>
-        <span class="sr-only">&nbsp;at&nbsp;</span>
         <span aria-hidden="true"> | </span>
         <span class="sr-only">&nbsp;at&nbsp;</span>
         <span class="text-nowrap">{time}</span>

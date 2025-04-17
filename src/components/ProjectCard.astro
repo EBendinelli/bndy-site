@@ -11,7 +11,7 @@ export interface Props extends CollectionEntry<"projects"> {
 
 const { variant = "h2", data, id, filePath } = Astro.props;
 
-const { title, description, coverImage, pubDateTime } = data;
+const { title, description, coverImage, pubDateTime, redirectUrl } = data;
 
 const headerProps = {
   style: { viewTransitionName: slugifyStr(title) },
@@ -19,8 +19,8 @@ const headerProps = {
 };
 ---
 
-<div class="group relative overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-accent">
-  <a href={getProjectPath(id, filePath)} class="block">
+<div class="group relative overflow-hidden border border-border bg-card transition-all hover:border-accent">
+  <a href={redirectUrl || getProjectPath(id, filePath)} class="block">
     {coverImage && (
       <div class="aspect-video w-full overflow-hidden">
         {typeof coverImage === "string" ? (

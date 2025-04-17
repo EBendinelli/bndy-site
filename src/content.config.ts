@@ -36,6 +36,7 @@ const projects = defineCollection({
     tags: z.array(z.string()).default(["others"]),
     ogImage: image().or(z.string()).optional(),
     coverImage: image().or(z.string()).optional(),
+    redirectUrl: z.string().optional(),
   })
 });
 
