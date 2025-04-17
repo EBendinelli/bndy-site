@@ -1,0 +1,59 @@
+---
+import { getCollection } from "astro:content";
+import Main from "@/layouts/Main.astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
+import { SITE } from "@/config";
+
+// Fetch all projects from the collection
+const projects = await getCollection("projects", ({ data }) => !data.draft);
+
+// Sort projects by pubDateTime in descending order
+const sortedProjects = projects.sort((a, b) => new Date(b.data.pubDateTime).getTime() - new Date(a.data.pubDateTime).getTime());
+
+// Group sorted projects by category
+const projectsByCategory = sortedProjects.reduce((acc, project) => {
+  const category = project.data.category || "Uncategorized";
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(project);
+  return acc;
+}, {} as Record<string, typeof projects>);
+
+// Get all unique categories
+const categories = Object.keys(projectsByCategory).sort();
+
+// Function to create a URL-friendly ID from a category name
+const getCategoryId = (category: string) => {
+  return category.toLowerCase().replace(/\s+/g, '-');
+};
+---
+
+<Layout title={`All Projects | ${SITE.title}`}>
+  <Header />
+  <Main pageTitle="All Projects" pageDesc="An incomplete list of personal projects, notable work, and media appearances">
+    {categories.map(category => {
+      const categoryId = getCategoryId(category);
+      return (
+        <div class="mb-12" id={categoryId}>
+          <h2 class="text-2xl font-bold mb-6 text-accent group">
+            {category}<a 
+              href={`#${categoryId}`} 
+              class="ml-2 text-sm opacity-0 group-hover:opacity-70 hover:opacity-100 transition-opacity" 
+              aria-label={`Link to ${category} section`}
+              title="Copy link to section"
+            >🔗</a>
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {projectsByCategory[category].map(project => <ProjectCard {...project} />)}
+          </div>
+        </div>
+      );
+    })}
+  </Main>
+
+  <Footer />
+</Layout>
