@@ -2,7 +2,7 @@
 title: Transparency and explainability for algorithmic decisions at work
 description: Part of my work on workplace surveillance and algorithmic management, set of recommendation for transparency and explainability. I aslo managed the development of the site.
 category: Digital Rights
-featured: true
+featured: false
 pubDateTime: 2025-01-03
 slug: algorithmic-management-recommendations
 coverImage: ../../assets/images/projects/algorithmic-management-reco-header.jpg

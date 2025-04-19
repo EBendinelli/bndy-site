@@ -12,6 +12,10 @@
   tfoot td:first-child {
     padding-inline-start: 0.5714286em !important;
   }
+
+  h2{
+      @apply text-xl;
+  }
   .prose h2#table-of-contents {
     @apply mb-2;
   }

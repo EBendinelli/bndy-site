@@ -34,9 +34,9 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
         Hi there 👋
       </h1>
 
-      <p>
+      <p class="text-base/8">
         I'm Eliot Bendinelli, a passionate human rights advocate, tech tinkerer, 
-        strategic thinker, and constant learner. I work at the intersection of 
+        strategic thinker, music-maker and constant learner. I work at the intersection of 
         technology, policy and societies. I make music, fighth surveillance 
         capitalism, code and more. You can 
         <LinkButton
@@ -56,7 +56,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Socials:</div>
             <Socials />
           </div>
         )
@@ -69,7 +69,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
       featuredProjects.length > 0 && (
         <>
           <section id="featured-work" class="pt-12 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide mb-6">Featured Work</h2>
+            <h2 class="text-2xl font-semibold tracking-wide mb-6">Featured Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
               {featuredProjects.map(project => <ProjectCard {...project} />)}
             </div>

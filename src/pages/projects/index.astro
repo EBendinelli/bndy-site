@@ -30,6 +30,7 @@ const categories = Object.keys(projectsByCategory).sort();
 const getCategoryId = (category: string) => {
   return category.toLowerCase().replace(/\s+/g, '-');
 };
+
 ---
 
 <Layout title={`All Projects | ${SITE.title}`}>
@@ -47,7 +48,7 @@ const getCategoryId = (category: string) => {
               title="Copy link to section"
             >🔗</a>
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projectsByCategory[category].map(project => <ProjectCard {...project} />)}
           </div>
         </div>
