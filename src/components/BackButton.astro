@@ -2,11 +2,18 @@
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
+
+export interface Props {
+  narrowWidth?: boolean;
+}
+
+const { narrowWidth = false } = Astro.props;
+
 ---
 
 {
   SITE.showBackButton && (
-    <div class="mx-auto flex w-full max-w-4xl items-center justify-start px-2">
+    <div class={`${narrowWidth ? "max-w-2xl" : "max-w-4xl"} mx-auto flex w-full items-center justify-start px-2`}>
       <LinkButton
         id="back-button"
         href="/"
