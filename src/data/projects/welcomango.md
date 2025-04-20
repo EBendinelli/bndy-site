@@ -2,7 +2,7 @@
 title: 'Welcomango'
 description:  A plateform that attempted to create a link between travelers and locals through experiences. It launched in 2017 and closed in 2019.
 category: "Tech"
-featured: true
+featured: false
 active: false
 startDate: 2015-03-10
 endDate: 2019-01-01
