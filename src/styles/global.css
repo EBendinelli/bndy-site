@@ -140,6 +140,14 @@ html[data-theme="dark"] {
   @apply text-lg/8;
 }
 
+.prose p{
+  @apply mb-0;
+}
+
+.prose ul{
+  @apply mt-0;
+}
+
 .active-nav {
   @apply underline decoration-wavy decoration-2 underline-offset-4;
 }

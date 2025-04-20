@@ -118,7 +118,7 @@ const nextProject =
       </div>
     )}
 
-    <div id="project-title" class="relative mx-auto pt-10 pb-10 mt-8 max-w-2xl bg-background text-center p-4 border-b">
+    <div id="project-title" class="relative mx-auto pt-10 pb-10 mt-8 max-w-3xl bg-background text-center p-4 border-b">
       <p class="text-2xl font-semibold tracking-wide mb-3 opacity-60">{category}</p>
         <h1
         transition:name={slugifyStr(title)}
@@ -131,7 +131,7 @@ const nextProject =
       </div>
     </div>
 
-    <article id="article" class="mx-auto prose mt-8 max-w-2xl">
+    <article id="article" class="mx-auto prose mt-8 max-w-3xl">
       <Content />
     </article>
 
@@ -165,7 +165,7 @@ const nextProject =
             <IconChevronLeft class="inline-block flex-none" />
             <div>
               <span>Previous Project</span>
-              <div class="text-sm text-accent/85">{prevProject.title}</div>
+              <div class="text-base text-accent/85">{prevProject.title}</div>
             </div>
           </a>
         )
@@ -178,7 +178,7 @@ const nextProject =
           >
             <div>
               <span>Next Project</span>
-              <div class="text-sm text-accent/85">{nextProject.title}</div>
+              <div class="text-base text-accent/85">{nextProject.title}</div>
             </div>
             <IconChevronRight class="inline-block flex-none" />
           </a>
