@@ -1,0 +1,22 @@
+---
+import readingTime  from "reading-time";
+
+export interface Props {
+  body: string;
+}
+
+const { body } = Astro.props;
+
+// Calculate reading time
+const stats = readingTime(body);
+console.log(stats);
+---
+
+<div class:list={["opacity-80"]}>
+    <span aria-hidden="true" class="max-sm:hidden">
+      -
+    </span>
+    <span class="italic max-sm:text-sm sm:inline ml-2">
+        {stats.text}
+    </span>
+  </div>
