@@ -128,7 +128,7 @@ html[data-theme="dark"] {
   }
 
   h1{
-    @apply font-semibold tracking-wider leading-12;
+    @apply font-semibold tracking-wider leading-12 text-5xl;
   }
 
   h2{
@@ -137,7 +137,7 @@ html[data-theme="dark"] {
 }
 
 .prose{
-  @apply text-base/7;
+  @apply text-lg/8;
 }
 
 .active-nav {
