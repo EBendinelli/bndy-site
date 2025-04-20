@@ -137,7 +137,7 @@ html[data-theme="dark"] {
 }
 
 .prose{
-  @apply text-base/8;
+  @apply text-base/7;
 }
 
 .active-nav {
