@@ -34,7 +34,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
         Hi there 👋
       </h1>
 
-      <p class="text-base/8">
+      <p class="text-lg/8 font-light">
         I'm Eliot Bendinelli, a passionate human rights advocate, tech tinkerer, 
         strategic thinker, music-maker and constant learner. I work at the intersection of 
         technology, policy and societies. I make music, fighth surveillance 
@@ -56,7 +56,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Socials:</div>
+            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0 text-lg font-light">Socials:</div>
             <Socials />
           </div>
         )
@@ -75,7 +75,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
             </div>
             <div class="mt-6 text-center">
               <LinkButton href="/projects/">
-                View All Projects
+                All Projects
                 <IconArrowRight class="inline-block" />
               </LinkButton>
             </div>

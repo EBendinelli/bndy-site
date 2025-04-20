@@ -136,12 +136,16 @@ html[data-theme="dark"] {
   }
 }
 
+p{
+  @apply font-light;
+}
+
 .prose{
   @apply text-lg/8;
 }
 
 .prose p{
-  @apply mb-0;
+  @apply mb-0 font-light;
 }
 
 .prose ul{

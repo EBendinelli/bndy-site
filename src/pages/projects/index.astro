@@ -33,9 +33,9 @@ const getCategoryId = (category: string) => {
 
 ---
 
-<Layout title={`All Projects | ${SITE.title}`}>
+<Layout title={`Projects | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="All Projects" pageDesc="An incomplete list of personal projects, notable work, and media appearances">
+  <Main pageTitle="Projects" pageDesc="An incomplete list of personal projects, notable work, and media appearances">
     {categories.map(category => {
       const categoryId = getCategoryId(category);
       return (
