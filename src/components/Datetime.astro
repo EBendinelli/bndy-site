@@ -14,7 +14,6 @@ export interface Props {
   timezone: string | undefined;
   pubDatetime: string | Date;
   modDatetime: string | Date | undefined | null;
-  showTime?: boolean;
 }
 
 const {
@@ -23,7 +22,6 @@ const {
   size = "sm",
   class: className = "",
   timezone: postTimezone,
-  showTime = true,
 } = Astro.props;
 
 /* ========== Formatted Datetime ========== */
@@ -53,12 +51,5 @@ const time = datetime.format("hh:mm A"); // e.g., '08:30 PM'
   }
   <span class:list={["text-sm italic", { "sm:text-base": size === "lg" }]}>
     <time datetime={datetime.toISOString()}>{date}</time>
-    {showTime && (
-      <>
-        <span aria-hidden="true"> | </span>
-        <span class="sr-only">&nbsp;at&nbsp;</span>
-        <span class="text-nowrap">{time}</span>
-      </>
-    )}
   </span>
 </div>

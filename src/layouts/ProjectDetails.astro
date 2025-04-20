@@ -5,6 +5,7 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Tag from "@/components/Tag.astro";
 import Datetime from "@/components/Datetime.astro";
+import ProjectPeriod from "@/components/ProjectPeriod.astro";
 //import EditProject from "@/components/EditProject.astro";
 import ShareLinks from "@/components/ShareLinks.astro";
 import BackButton from "@/components/BackButton.astro";
@@ -29,8 +30,9 @@ const {
   ogImage: initOgImage,
   coverImage,
   canonicalURL,
-  pubDateTime,
-  modDatetime,
+  startDate,
+  endDate,
+  active,
   timezone,
   tags,
   hideEditProject,
@@ -63,8 +65,9 @@ const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
   description,
-  pubDateTime,
-  modDatetime,
+  startDate,
+  endDate,
+  active,
   canonicalURL,
   ogImage,
   scrollSmooth: true,
@@ -124,7 +127,7 @@ const nextProject =
         {title}
       </h1>
       <div class="flex items-center justify-center gap-4">
-        <Datetime {pubDateTime} showTime={false} size="lg" class="my-2" />
+        <ProjectPeriod {startDate} {endDate} {active} size="lg" class="my-2" />
       </div>
     </div>
 
