@@ -3,7 +3,9 @@ title: 'Your Mental Health for Sale'
 description: A technical research that exposed the collection and sharing of sensitive health data, has obtained coverage in major newspapers, creating impact in the form of regulatory action and changes in company practices.
 category: "Digital Rights"
 featured: true
-pubDateTime: '2019-09-03'
+active: false
+startDate: 2019-01-01
+endDate: 2023-01-01
 slug: mental-health-for-sale-research
 coverImage: ../../assets/images/projects/mental-health-project.png
 seo:

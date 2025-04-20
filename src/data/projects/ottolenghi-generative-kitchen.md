@@ -2,8 +2,9 @@
 title: 'Ottolenghi Generative Kitchen'
 description: An humorous project generating potential Ottolenghi "recipes" using random Ottolenghi ingredients and qualifiers. A silly project that took 2h to come to life.
 category: "Tech"
-featured: true
-pubDateTime: '2023-10-01'
+featured: false
+active: false
+startDate: 2023-10-01
 slug: ottolenghi-generative-kitchen
 coverImage: ../../assets/images/projects/OGK2.png
 seo:
