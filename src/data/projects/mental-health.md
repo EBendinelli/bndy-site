@@ -46,10 +46,10 @@ Recording of the Blackhat presentation:
   </iframe>
 </div>
 
-Role: 
+Roles: 
 - Project manager
 - Researcher
 
-Technical tools used: 
+Tech tools used: 
 - [HTTPToolkit](https://httptoolkit.com/) for network interception and analysis
 - WebXRay (now defunct) for cookie and requests classification     

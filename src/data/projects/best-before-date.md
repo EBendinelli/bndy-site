@@ -1,6 +1,6 @@
 ---
 title: 'Longer security updates periods for devices'
-description: An advocacy campaign in the EU to increase the duration for which device manufacturers provide security updates
+description: An advocacy campaign in the EU to increase the duration for which device manufacturers provide security updates and the information available to people at the point of purchase.
 category: "Digital Rights"
 featured: true
 active: false
