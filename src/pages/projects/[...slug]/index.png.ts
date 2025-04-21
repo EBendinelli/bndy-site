@@ -19,18 +19,18 @@ export async function getStaticPaths() {
   }));
 }
 
-export const GET: APIRoute = async ({ props }) => {
-  if (!SITE.dynamicOgImage) {
-    return new Response(null, {
-      status: 404,
-      statusText: "Not found",
-    });
-  }
+// export const GET: APIRoute = async ({ props }) => {
+//   if (!SITE.dynamicOgImage) {
+//     return new Response(null, {
+//       status: 404,
+//       statusText: "Not found",
+//     });
+//   }
 
-  // return new Response(
-  //   await generateOgImageForPost(props as CollectionEntry<"projects">),
-  //   {
-  //     headers: { "Content-Type": "image/png" },
-  //   }
-  // );
-};
+//   return new Response(
+//     await generateOgImageForPost(props as CollectionEntry<"projects">),
+//     {
+//       headers: { "Content-Type": "image/png" },
+//     }
+//   );
+// };
