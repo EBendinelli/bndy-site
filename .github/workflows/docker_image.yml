@@ -11,27 +11,22 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
- # Setup permission for github token
-permissions:
-  contents: read
-  packages: write
-  attestations: write
-  id-token: write
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build:
+  build-and-push-image:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
 
-  push-image:
-    runs-on: ubuntu-latest
-    needs: build
+    # Setup permission for github token
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       #log into github registry
       - name: Login to Github package registry
         uses: docker/login-action@v3
