@@ -13,7 +13,7 @@ campaigns against abusive uses of technology, acting to strengthen
 access to human rights in the digital world. 
 
 <div>
-  <img src="../src/assets/images/Portrait.jpg" class="sm:w-1/2 mx-auto rounded-image" alt="A portrait of Eliot">
+  <img src="/Portrait.jpg" class="sm:w-1/2 mx-auto rounded-image" alt="A portrait of Eliot">
 </div>
 
 Some of my work, such as "Your mental health for sale" that exposed the collection and sharing of 
