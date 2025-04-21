@@ -11,7 +11,7 @@ export interface Props extends CollectionEntry<"projects"> {
 
 const { variant = "h2", data, id, filePath } = Astro.props;
 
-const { title, description, coverImage, pubDateTime, redirectUrl } = data;
+const { title, description, coverImage, redirectUrl } = data;
 
 const headerProps = {
   style: { viewTransitionName: slugifyStr(title) },

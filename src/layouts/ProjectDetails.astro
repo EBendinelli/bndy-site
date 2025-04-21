@@ -17,25 +17,20 @@ import { SITE } from "@/config";
 import { Image } from "astro:assets";
 
 export interface Props {
-  project: CollectionEntry<"project">;
-  projects: CollectionEntry<"project">[];
+  project: CollectionEntry<"projects">;
+  projects: CollectionEntry<"projects">[];
 }
 
 const { project, projects } = Astro.props;
 
 const {
   title,
-  author,
   description,
   ogImage: initOgImage,
   coverImage,
-  canonicalURL,
   startDate,
   endDate,
   active,
-  timezone,
-  tags,
-  hideEditProject,
   redirectUrl,
   category,
 } = project.data;
@@ -63,12 +58,10 @@ const ogImage = ogImageUrl
 
 const layoutProps = {
   title: `${title} | ${SITE.title}`,
-  author,
   description,
   startDate,
   endDate,
   active,
-  canonicalURL,
   ogImage,
   scrollSmooth: true,
 };
