@@ -18,9 +18,8 @@ const { noMarginTop = false } = Astro.props;
   >
     <Socials centered />
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <span>Copyright &#169; {currentYear}</span>
-      <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+      <span><a class="hover:text-accent" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> &#169;</span>&nbsp;|&nbsp;
+      <span>{currentYear}</span>
     </div>
   </div>
 </footer>

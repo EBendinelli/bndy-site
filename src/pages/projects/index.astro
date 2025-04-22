@@ -13,8 +13,18 @@ const projects = await getCollection("projects", ({ data }) => !data.draft);
 // Sort projects by pubDateTime in descending order
 const sortedProjects = projects.sort((a, b) => new Date(b.data.startDate).getTime() - new Date(a.data.startDate).getTime());
 
+// Separate active projects from others
+const activeProjects = sortedProjects.filter(project => project.data.active);
+const inactiveProjects = sortedProjects.filter(project => !project.data.active);
+
+// Combine active projects first, then inactive projects
+const sortedProjectsByActivity = [
+  ...activeProjects.sort((a, b) => new Date(b.data.startDate).getTime() - new Date(a.data.startDate).getTime()),
+  ...inactiveProjects.sort((a, b) => new Date(b.data.startDate).getTime() - new Date(a.data.startDate).getTime())
+];
+
 // Group sorted projects by category
-const projectsByCategory = sortedProjects.reduce((acc, project) => {
+const projectsByCategory = sortedProjectsByActivity.reduce((acc, project) => {
   const category = project.data.category || "Uncategorized";
   if (!acc[category]) {
     acc[category] = [];
@@ -48,7 +58,7 @@ const getCategoryId = (category: string) => {
               title="Copy link to section"
             >🔗</a>
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="space-y-2">
             {projectsByCategory[category].map(project => <ProjectCard {...project} />)}
           </div>
         </div>
