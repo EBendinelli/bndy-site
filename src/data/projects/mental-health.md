@@ -14,13 +14,13 @@ seo:
     alt: Project preview
 ---
 
-In 2019 at Privacy International, I led a project looking into online tracking and profiling practices of websites addressing depression. The aim of the project, named [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), was to expose how intimate data about us can be collected, shared and processed by third parties, without users consent or knowledge.
+In 2019 at Privacy International, I led a project looking into online tracking and profiling practices of websites addressing depression. The aim of the project, named [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), was to expose how intimate data about us can be collected, shared and processed by third parties, without users' consent or knowledge.
 
 I conducted technical research and [co-produced a report](https://privacyinternational.org/node/3193) exposing the abusive data collection practices of some publishers including sharing answers to depression tests with third parties without informing users and loading marketing trackers before consent.
 
 Following this work, a number of websites mentioned in the report [changed their practices](https://privacyinternational.org/report/3351/mental-health-websites-dont-have-sell-your-data-most-still-do) to reduce or eliminate data sharing of intimate information with third-parties.
 
-This research served as the basis for a [complaint against Doctissimo](https://privacyinternational.org/legal-action/complaint-against-doctissimo) to French data authority CNIL, one of the worst offender that did not change its practices following the report. This complaint led to the company [being fined 380,000€](https://www.cnil.fr/en/health-data-and-use-cookies-doctissimo-fined-eu380000) in May 2023 for GDPR infringement.
+This research served as the basis for a [complaint against Doctissimo](https://privacyinternational.org/legal-action/complaint-against-doctissimo) to French data authority CNIL, one of the worst offenders that did not change its practices following the report. This complaint led to the company [being fined 380,000€](https://www.cnil.fr/en/health-data-and-use-cookies-doctissimo-fined-eu380000) in May 2023 for GDPR infringement.
 
 ![CNIL's announcement of the Doctissimo fine](@/assets/images/projects/mental-health-cnil-screenshot.png)
 

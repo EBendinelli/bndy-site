@@ -4,7 +4,7 @@ description: My solo project, and the most active one! Blending influences, guit
 category: Music
 featured: true
 active: true
-startDate: 2026
+startDate: 2021-01-01
 slug: bendy
 coverImage: ../../assets/images/projects/BENDY.png
 seo: 

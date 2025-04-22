@@ -1,6 +1,6 @@
 ---
 title: 'Welcomango'
-description:  A plateform that attempted to create a link between travelers and locals through experiences. It launched in 2017 and closed in 2019.
+description:  A platform that attempted to create a link between travelers and locals through experiences. It launched in 2017 and closed in 2019.
 category: "Tech"
 featured: false
 active: false
@@ -19,7 +19,7 @@ Welcomango was an idea that started in 2014 and began development in 2015. The g
 ![Screenshot](@/assets/images/blog/welcomango-1.png)
 *The welcomango concept as explained on the homepage*
 
-Initially a side project, dvelopment was very slow at first and picked up in 2016 thanks to the help of a good friend. The platform was developped in Php using Symfony 2. A somewhat functional version of the site can be found on [archive.org](https://web.archive.org/web/20181228072421/http://welcomango.com/).
+Initially a side project, development was very slow at first and picked up in 2016 thanks to the help of a good friend. The platform was developed in Php using Symfony 2. A somewhat functional version of the site can be found on [archive.org](https://web.archive.org/web/20181228072421/http://welcomango.com/).
 
 
 ![Screenshot](@/assets/images/blog/welcomango-2.png)
