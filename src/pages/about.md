@@ -22,7 +22,7 @@ creating impact in the form of regulatory action or changes in company
 practices. Challenging monopolies in digital markets, I have supported 
 PI's interventions in multiple merger cases involving Big 
 Tech companies, including Meta/Giphy and Google/Fitbit, and 
-advocated for strong privacy and security provisions in criticaal 
+advocated for strong privacy and security provisions in critical 
 European legislations such as the Digital Market Act. 
 
 I'm currently suporting a fairly new organisation, [Data Rights](https://datarights.ngo),
