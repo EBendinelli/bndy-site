@@ -78,7 +78,7 @@ html[data-theme="light"] {
 
 /* NEW DARK THEME - Inspired by light theme with a cohesive color palette */
 html[data-theme="dark"] {
-  --background: #121620;  /* Darker deep blue-gray background */
+  --background: #0d1117;  /* Darker deep blue-gray background */
   --foreground: #f0f4f8;  /* Light blue-white text */
   --accent: #ff6b9c;      /* Vibrant pink accent (complementary to light theme's pink) */
   --muted: #2d3748;       /* Darker blue-gray for muted elements */
