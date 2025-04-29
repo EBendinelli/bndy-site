@@ -1,5 +1,5 @@
 ---
-title: 'Ottolenghi Generative Kitchen'
+title: 'Ottolenghi Generative Kitchen (OGK)'
 description: An humorous project generating potential Ottolenghi "recipes" using random Ottolenghi ingredients and qualifiers. A silly project that took 2h to come to life.
 category: "Tech"
 featured: false
