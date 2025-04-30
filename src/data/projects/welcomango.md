@@ -25,5 +25,5 @@ Initially a side project, development was very slow at first and picked up in 20
 ![Screenshot](@/assets/images/blog/welcomango-2.png)
 *Example of an experience offered by a local*
 
-With little experience in entrepreneurship and few resources available, growth was mostly driven by friends and their friends, with limited results. With about 80 users at its peak and very little experiences actually booked, the website closed down in 2019.
+With little experience in entrepreneurship and few resources available, growth was mostly driven by friends and their friends, with limited results. With about 80 users at its peak, the website closed down in 2019.
 

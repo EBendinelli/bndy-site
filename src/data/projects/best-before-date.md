@@ -4,6 +4,7 @@ description: An advocacy campaign in the EU to increase the duration for which d
 category: "Digital Rights"
 featured: true
 active: false
+draft: true
 startDate: 2021-01-01
 endDate: 2022-01-01
 slug: longer-security-updates-for-devices

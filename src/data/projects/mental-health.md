@@ -4,6 +4,7 @@ description: A technical research that exposed the collection and sharing of sen
 category: "Digital Rights"
 featured: true
 active: false
+draft: true
 startDate: 2019-01-01
 endDate: 2023-01-01
 slug: mental-health-for-sale-research

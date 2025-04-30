@@ -10,7 +10,7 @@ campaigns against abusive uses of technology, strengthening access to human righ
 
 I am currently supporting a fairly new organisation, [Data Rights](https://datarights.ngo), to develop its strategy on data portability and interoperability matters with the aim to open up tech monopolies while protecting privacy and security. 
 
-I also offer consultancy services including policy development, educational content, advocacy strategy, tech research and AI position development. Don't hesitate to [get in touch](mailto:eliot@bndy.org) if you want to have a chat.
+I also offer consultancy services including policy development, educational content, advocacy strategy, tech research and AI position development. Don't hesitate to [get in touch](mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#101;&#108;&#105;&#111;&#116;&#098;&#101;&#110;&#100;&#105;&#110;&#101;&#108;&#108;&#105;&#046;&#099;&#111;&#109;) if you want to have a chat.
 
 
 
@@ -18,14 +18,33 @@ I also offer consultancy services including policy development, educational cont
   <img src="/Portrait.jpg" class="sm:w-1/2 mx-auto rounded-image" alt="A portrait of Eliot">
 </div>
 
+## Expertise
 
-## Notable media coverage & op-eds
-- [How AI impacts Human Rights](https://foundation.mozilla.org/en/blog/how-ai-impacts-human-rights/), 2024, Interview with the Mozilla Foundation
-- [Tribune in Le Monde](https://www.lemonde.fr/idees/article/2023/08/30/criteo-la-decision-de-la-cnil-s-attaque-a-la-chaine-de-production-de-donnees-irresponsable-qui-regne-dans-l-industrie-publicitaire-en-ligne_6187094_3232.html), 2023, on Adtech company Criteo (co-authored)
-- [Al Jazeera's "All the Prime Minister’s Men"](https://www.youtube.com/watch?v=a6v_levbUN4), 2021, expert interview on the use of IMSI Catchers in Bangladesh
-- Featured in ["Made to Measure: A Digital Search for Traces"](https://www.themoviedb.org/movie/868880-made-to-measure-eine-digitale-spurensuche), 2021, documentary on online tracking and profiling
-- [Application StopCovid: ce que les dispositifs de surveillance mis en place à l'étranger nous apprennent sur le projet français](https://www.francetvinfo.fr/sante/maladie/coronavirus/application-stopcovid-ce-que-les-dispositifs-de-surveillance-mis-en-place-a-l-etranger-nous-apprennent-sur-le-projet-francais_3907579.html), 2020, interview with France Info on covid tracking technologies
-- "Données? Reprise.", 2018, [essay in Jet d'encre](https://www.jetdencre.ch/donnees-reprises) on data monetisation
+### Adtech, Data Protection, Privacy
+
+- **Op-ed**: [Criteo : « La décision de la CNIL s’attaque à la chaîne de production de données irresponsable qui règne dans l’industrie publicitaire en ligne »](https://www.lemonde.fr/idees/article/2023/08/30/criteo-la-decision-de-la-cnil-s-attaque-a-la-chaine-de-production-de-donnees-irresponsable-qui-regne-dans-l-industrie-publicitaire-en-ligne_6187094_3232.html), Le Monde, 2023, on Adtech company Criteo (co-author)
+- **Explainer**: [The companies in control of our secret identities](https://www.privacyinternational.org/long-read/4398/companies-control-our-secret-identities), Privacy International, 2021
+- **Technical research**: [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), Privacy International, 2019, research into depression websites tracking users and leaking personal data with advertisers ([report](https://www.privacyinternational.org/node/3193))
+- **Documentary**: ["Made to Measure: A Digital Search for Traces"](https://www.themoviedb.org/movie/868880-made-to-measure-eine-digitale-spurensuche), 2021, documentary on online tracking and profiling
+- **Essay**: ["Données? Reprise."](https://www.jetdencre.ch/donnees-reprises), Jet d'encre, 2018, on data monetisation
+
+### Artificial Intelligence and Automated decision-making
+
+- **Essay**: [Your future AI Assistant still needs to earn your trust](https://privacyinternational.org/long-read/5555/your-future-ai-assistant-still-needs-earn-your-trust), Privacy International, 2025
+- **Essay**: [Generative AI won't take over the world, surveillance capitalism already has
+](https://privacyinternational.org/news-analysis/5331/generative-ai-wont-take-over-world-surveillance-capitalism-already-has), Privacy International, 2024
+- **Interview**: [How AI impacts Human Rights](https://foundation.mozilla.org/en/blog/how-ai-impacts-human-rights/), Mozilla Foundation, 2024
+
+### Gig Economy, Algorithmic management and workplace surveillance
+
+- **Policy recommendations**: [Transparency and explainability for algorithmic decisions at work](https://gigeconomy.privacyinternational.org/), Privacy International, 2025
+- **Research**: [Creating content in the gig economy: a risky business](https://www.privacyinternational.org/long-read/5013/creating-content-gig-economy-risky-business), Privacy International, 2023
+
+### Security & surveillance
+
+- **Documentary**: ["All the Prime Minister’s Men"](https://www.youtube.com/watch?v=a6v_levbUN4), Al Jazeera, 2021, interview on the use of IMSI Catchers in Bangladesh (at 48:50)
+- **Interview**: [Application StopCovid: ce que les dispositifs de surveillance mis en place à l'étranger nous apprennent sur le projet français](https://www.francetvinfo.fr/sante/maladie/coronavirus/application-stopcovid-ce-que-les-dispositifs-de-surveillance-mis-en-place-a-l-etranger-nous-apprennent-sur-le-projet-francais_3907579.html), France Info, 2020, on covid tracking technologies
+
 
 ## Panels and conferences
 - [DICOPO online roundtable on AI and Data Regulation](https://digi-con.org/ai-and-data-regulation-between-convergence-and-novel-challenges/), 2024, panelist
