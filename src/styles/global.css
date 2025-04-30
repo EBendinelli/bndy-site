@@ -137,6 +137,10 @@ html[data-theme="dark"] {
   }
 }
 
+a{
+  @apply !font-light;
+}
+
 p{
   @apply font-light;
 }
