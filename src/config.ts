@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://bndy.org/",
   desc: "A minimal portfolio and blog for Eliot Bendinelli.",
   title: "Eliot Bendinelli",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "favicon.svg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
