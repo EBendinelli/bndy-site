@@ -20,13 +20,19 @@ I also offer consultancy services including policy development, educational cont
 
 ## Expertise
 
-### Adtech, Data Protection, Privacy
+### Online advertising & Data Protection
 
 - **Op-ed**: [Criteo : « La décision de la CNIL s’attaque à la chaîne de production de données irresponsable qui règne dans l’industrie publicitaire en ligne »](https://www.lemonde.fr/idees/article/2023/08/30/criteo-la-decision-de-la-cnil-s-attaque-a-la-chaine-de-production-de-donnees-irresponsable-qui-regne-dans-l-industrie-publicitaire-en-ligne_6187094_3232.html), Le Monde, 2023, on Adtech company Criteo (co-author)
 - **Explainer**: [The companies in control of our secret identities](https://www.privacyinternational.org/long-read/4398/companies-control-our-secret-identities), Privacy International, 2021
 - **Technical research**: [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), Privacy International, 2019, research into depression websites tracking users and leaking personal data with advertisers ([report](https://www.privacyinternational.org/node/3193))
 - **Documentary**: ["Made to Measure: A Digital Search for Traces"](https://www.themoviedb.org/movie/868880-made-to-measure-eine-digitale-spurensuche), 2021, documentary on online tracking and profiling
 - **Essay**: ["Données? Reprise."](https://www.jetdencre.ch/donnees-reprises), Jet d'encre, 2018, on data monetisation
+
+### Privacy & security
+
+- **Essay**: [The hidden threat: Privacy and security risks in chips](https://privacyinternational.org/long-read/5559/hidden-threat-privacy-and-security-risks-chips), Privacy International, 2025
+- **Documentary**: ["All the Prime Minister’s Men"](https://www.youtube.com/watch?v=a6v_levbUN4), Al Jazeera, 2021, interview on the use of IMSI Catchers in Bangladesh (at 48:50)
+- **Interview**: [Application StopCovid: ce que les dispositifs de surveillance mis en place à l'étranger nous apprennent sur le projet français](https://www.francetvinfo.fr/sante/maladie/coronavirus/application-stopcovid-ce-que-les-dispositifs-de-surveillance-mis-en-place-a-l-etranger-nous-apprennent-sur-le-projet-francais_3907579.html), France Info, 2020, on covid tracking technologies
 
 ### Artificial Intelligence and Automated decision-making
 
@@ -39,11 +45,6 @@ I also offer consultancy services including policy development, educational cont
 
 - **Policy recommendations**: [Transparency and explainability for algorithmic decisions at work](https://gigeconomy.privacyinternational.org/), Privacy International, 2025
 - **Research**: [Creating content in the gig economy: a risky business](https://www.privacyinternational.org/long-read/5013/creating-content-gig-economy-risky-business), Privacy International, 2023
-
-### Security & surveillance
-
-- **Documentary**: ["All the Prime Minister’s Men"](https://www.youtube.com/watch?v=a6v_levbUN4), Al Jazeera, 2021, interview on the use of IMSI Catchers in Bangladesh (at 48:50)
-- **Interview**: [Application StopCovid: ce que les dispositifs de surveillance mis en place à l'étranger nous apprennent sur le projet français](https://www.francetvinfo.fr/sante/maladie/coronavirus/application-stopcovid-ce-que-les-dispositifs-de-surveillance-mis-en-place-a-l-etranger-nous-apprennent-sur-le-projet-francais_3907579.html), France Info, 2020, on covid tracking technologies
 
 
 ## Panels and conferences
