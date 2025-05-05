@@ -37,8 +37,7 @@ I also offer consultancy services including policy development, educational cont
 ### Artificial Intelligence and Automated decision-making
 
 - **Essay**: [Your future AI Assistant still needs to earn your trust](https://privacyinternational.org/long-read/5555/your-future-ai-assistant-still-needs-earn-your-trust), Privacy International, 2025
-- **Essay**: [Generative AI won't take over the world, surveillance capitalism already has
-](https://privacyinternational.org/news-analysis/5331/generative-ai-wont-take-over-world-surveillance-capitalism-already-has), Privacy International, 2024
+- **Essay**: [Generative AI won't take over the world, surveillance capitalism already has](https://privacyinternational.org/news-analysis/5331/generative-ai-wont-take-over-world-surveillance-capitalism-already-has), Privacy International, 2024
 - **Interview**: [How AI impacts Human Rights](https://foundation.mozilla.org/en/blog/how-ai-impacts-human-rights/), Mozilla Foundation, 2024
 
 ### Gig Economy, Algorithmic management and workplace surveillance
