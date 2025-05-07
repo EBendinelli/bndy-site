@@ -6,7 +6,9 @@ title: syncing-obsidian-content-with-astro
 slug: 
 featured: false
 draft: true
-tags: 
-description: 
+tags:
+  - tech
+  - knowledge-base
+description: How I to write your blog posts in markdown in Obsidian and synchronise them with your Astro site
 Type: "[[Blog posts]]"
 ---
