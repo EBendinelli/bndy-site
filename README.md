@@ -95,4 +95,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 📜 License
 
-Licensed under the  CC BY-SA 4.0, Copyright © 2025
+Licensed under the  CC BY-SA 4.0
