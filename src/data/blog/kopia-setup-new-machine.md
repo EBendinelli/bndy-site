@@ -19,7 +19,7 @@ It's be 3 years now and Kopia delivered for me. I've restored cherrypicked data 
 
 The only issue I found with this solution is that it's so "set and forget" that almost any time I need to do something with it, I have to get back to the [documentation](https://kopia.io/docs/reference/command-line/common/) to remember how it works. That's particularly the case when I'm setup up a new device or migrating a service to a new home.
 
-So this is my cheatsheet. I hope this is useful to someone.
+So this is my Cheatsheet. I hope this is useful to someone.
 
 > NOTE: This article It doesn't cover how to setup a Kopia repository for the first time as the [Getting Started Guide](https://kopia.io/docs/getting-started/) does that pretty decently. This is mostly for those time when you're setup up a new laptop, replacing your drive, or moving services to another server and looking to reconnect to an existing repo and setup Kopia to continue adding backups 
 
