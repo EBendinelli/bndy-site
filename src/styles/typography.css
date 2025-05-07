@@ -36,7 +36,7 @@
 
   .prose code,
   .prose blockquote {
-    @apply break-words;
+    @apply break-words !font-light;
   }
 
   .prose table code {

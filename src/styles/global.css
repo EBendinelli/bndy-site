@@ -17,7 +17,7 @@ html[data-theme="light"] {
   --background: #fafcfc;
   --foreground: #222e36;
   --accent: #d3006a;
-  --muted: #6F6E69;
+  --muted: #E6E6E6;
   --border: #e3a9c6;
 }
 
@@ -81,14 +81,14 @@ html[data-theme="dark"] {
   --background: #0d1117;  /* Darker deep blue-gray background */
   --foreground: #f0f4f8;  /* Light blue-white text */
   --accent: #ff89b0;      /* Vibrant pink accent (complementary to light theme's pink) */
-  --muted: #95999E;       /* Darker blue-gray for muted elements */
+  --muted: #2d3748;       /* Darker blue-gray for muted elements */
   --border: #3d4a63;      /* Medium blue-gray for borders */
   --accent-alt: #24837B;
 } 
 
 @theme {
   --font-sans: 'Inter Variable', 'sans-serif';
-  --font-mono: 'Roboto Mono Variable', monospace;
+  /* --font-mono: 'Roboto Mono Variable', monospace; */
   --font-headers: 'Montserrat Variable', 'sans-serif';
 }
 
