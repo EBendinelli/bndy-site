@@ -16,8 +16,9 @@
 html[data-theme="light"] {
   --background: #fafcfc;
   --foreground: #222e36;
+  --muted-background: #E6E6E6;
   --accent: #d3006a;
-  --muted: #E6E6E6;
+  --muted: #6F6E69;
   --border: #e3a9c6;
 }
 
@@ -80,8 +81,9 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
   --background: #0d1117;  /* Darker deep blue-gray background */
   --foreground: #f0f4f8;  /* Light blue-white text */
+  --muted-background: #2d3748;
   --accent: #ff89b0;      /* Vibrant pink accent (complementary to light theme's pink) */
-  --muted: #2d3748;       /* Darker blue-gray for muted elements */
+  --muted: #95999E;
   --border: #3d4a63;      /* Medium blue-gray for borders */
   --accent-alt: #24837B;
 } 
@@ -95,6 +97,7 @@ html[data-theme="dark"] {
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted-background: var(--muted-background);
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
