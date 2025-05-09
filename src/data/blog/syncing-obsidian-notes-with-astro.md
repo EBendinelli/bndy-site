@@ -10,7 +10,7 @@ tags:
   - tech
   - knowledge-base
 description: How I write blog posts in markdown in Obsidian and synchronise them with my Astro site
-Type: "[[Blog posts]]"
+Type: "Blog posts"
 ---
 
 Is this notes already outdated?

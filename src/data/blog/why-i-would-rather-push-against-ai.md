@@ -11,7 +11,7 @@ tags:
   - AI
   - reflection
 description: How I think about a technology that promises to deliver paradise but could open the gates to hell
-Type: "[[Website project]]"
+Type: "Blog posts"
 ---
 
 From the first wave of hype in 2022 and the scramble from Big Tech companies to catch up, AI felt like BS to me. It was the latest child of a tech industry trying to justify its existence and attract investment. Blockchain, VR and the metaverse didn't catch up, AI will.  
