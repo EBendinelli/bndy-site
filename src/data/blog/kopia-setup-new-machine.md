@@ -9,7 +9,7 @@ draft: false
 tags:
   - knowledge-base
 description: For these times when you need to restore something or re-setup Kopia on a new device/host
-Type: "[[Blog post]]"
+Type: "Blog post"
 ---
 I have a decent amount of data on my laptop, from my music to admin to work, and I've lost my share of irreplicable data to know better than to not back it up (*RIP family photos that lived on my mom's laptop when 12 years old clueless me installed Linux, I'm still sorry*). 
 
