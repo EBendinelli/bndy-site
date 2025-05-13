@@ -141,7 +141,7 @@ html[data-theme="dark"] {
 }
 
 a{
-  @apply !font-light;
+  @apply !font-normal;
 }
 
 p{
