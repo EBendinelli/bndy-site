@@ -5,7 +5,7 @@ modDatetime:
 title: Syncing Obsidian notes with Astro
 slug: syncing-obsidian-notes-with-astro
 featured: false
-draft: true
+draft: false
 tags:
   - tech
   - knowledge-base
@@ -17,14 +17,14 @@ I use [Obsidian](obsidian.md) on a daily basis, it's my note-taking app, my jour
 
 When I started this site with the idea to write regular blog posts, my intention was obviously to use Obsidian to write said post, and have them sync with minimal effort.
 
-[This site](/projects/) runs on Astro. One of the reasons I chose this framework is that it can take Markdown files and turn them into html files quite easily. This allows me to work on `.md` files from my favourite Markdown editor and churn out nicely formatted pages like this one.
+[This site](/projects/this-site) runs on Astro. One of the reasons I chose this framework is that it can take Markdown files and turn them into html files quite easily. This allows me to work on `.md` files from my favourite Markdown editor and churn out nicely formatted pages like this one.
 
 Now, the issue is that my IDE is *not* my favourite Markdown editor. Obsidian is. So with everything setup, I looked for the best way to **write my blog posts in Obsidian and have them automatically synced with my Astro site, which is hosted on GitHub**. This is all desktop based, I don't care about publishing from my phone.
 
 After some research I identified three options: 
 
-1. Open my local clone of the GitHub repository with Obsidian: easy to setup but: I didn't like the idea of having a second vault open (which I need to setup with all the nice things I already use, like [Templater](https://github.com/SilentVoid13/Templater)) and, I would need to open the terminal or my IDE to stash/commit/push changes.
-2. Sync scripts: people have already done the hard work. [Rach Smith's Obsidian-to-astro-sync](https://github.com/rachsmithcodes/obsidian-to-astro-sync/tree/main?tab=readme-ov-file) (related [blog post](https://rachsmith.com/automating-obsidian-to-astro/)) is a script that copies the files in a designated it to a local clone of your site. The good part is that it processes images and links and maintain a very clean structure in your Obsidian vault. The downside is that if I just want to update some content, I need to open Obsidian + run the sync script + push from the terminal or my IDE.
+1. Open my local clone of the GitHub repository with Obsidian: easy to setup but: I didn't like the idea of having a second vault open (which I need to setup with all the nice things I already use, like [Templater](https://github.com/SilentVoid13/Templater)). Plus, I would need to open the terminal or my IDE to stash/commit/push changes.
+2. Sync script: people have already done the hard work. [Rach Smith's Obsidian-to-astro-sync](https://github.com/rachsmithcodes/obsidian-to-astro-sync/tree/main?tab=readme-ov-file) (related [blog post](https://rachsmith.com/automating-obsidian-to-astro/)) is a script that copies the files in a designated it to a local clone of your site. The good part is that it processes images and links and maintain a very clean structure in your Obsidian vault. The downside is that if I just want to update some content, I need to open Obsidian + run the sync script + push from the terminal or my IDE.
 3. Pull a subset of my website inside Obsidian with Obsidian git and sparse checkout. This is inspired by [Steph Ango's (CEO of Obsidian) setup](https://stephango.com/vault) and the solution I ended up using.
 
 Here is how to set it up.
@@ -76,10 +76,10 @@ From there you should have the content of your Astro site in a folder inside you
 
 Now time to setup Obsidian to be able to pull/stash/commit/push and more:
 
-5. Install [Obsidian git](https://github.com/Vinzent03/obsidian-git): Settings > Community Plugins > Browser > Search for Obsidian git. Install and enable
-6. Setup Obsidian git: Setting > Git
+5. Open Obsidian and install [Obsidian Git](https://github.com/Vinzent03/obsidian-git): Settings > Community Plugins > Browser > Search for Obsidian Git. Install and enable
+6. Setup Obsidian Git: Setting > Git
 
-The most important thing here is to setup the Custom base path (at the bottom) to `Blog` (or whatever name you chose). I also changed the default commit message to something more meaningful for me than "vault backup"
+The most important thing here is to setup the `Custom base path` (at the bottom) to `Blog` (or whatever name you chose). I also changed the default commit message to something more meaningful for me than "vault backup"
 
 And you should be all set! Now you have a `Blog` folder in your Obsidian vault, and after you've edited or created content you can simply press `Ctrl+P` and launch `Git: Commit-and-sync`. The content will be pushed to your repository.
 

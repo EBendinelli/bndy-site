@@ -13,7 +13,7 @@ seo:
     alt: Project preview
 ---
 
-I'm not a full time web developper anymore and so every couple of years I try to give myself a new tech project/challenge to keep my skills sharps and learn new things.
+I'm not a full time web developer anymore and so every couple of years I try to give myself a new tech project/challenge to keep my skills sharps and learn new things.
 
 2025 is the year I built myself a personal site. The goal was to have a site where I could 1/ list my project 2/ Have a short bio and 3/ blog. Being a big fan of markdown and the [small web](https://smallweb.page/home), I wanted to try once of those fancy framework that take markdown files in and produce a static site on the other side.
 
