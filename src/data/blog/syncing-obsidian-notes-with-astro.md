@@ -13,33 +13,34 @@ description: How I write blog posts in markdown in Obsidian and synchronise them
 Type: "Blog posts"
 ---
 
-Is this notes already outdated?
-
 I use [Obsidian](obsidian.md) on a daily basis, it's my note-taking app, my journaling app, my project management app (to a certain extent) and more. 
 
 When I started this site with the idea to write regular blog posts, my intention was obviously to use Obsidian to write said post, and have them sync with minimal effort.
 
 [This site](/projects/) runs on Astro. One of the reasons I chose this framework is that it can take Markdown files and turn them into html files quite easily. This allows me to work on `.md` files from my favourite Markdown editor and churn out nicely formatted pages like this one.
 
-Now, the issue is that my IDE is *not* my favourite Markdown editor. Obsidian is. So with everything setup, I looked for the best way to achieve the following: **writing my blog posts in Obsidian and have them automatically synced with my Astro site which is hosted on GitHub**. This is all desktop based, I don't care about publishing from my phone.
+Now, the issue is that my IDE is *not* my favourite Markdown editor. Obsidian is. So with everything setup, I looked for the best way to **write my blog posts in Obsidian and have them automatically synced with my Astro site, which is hosted on GitHub**. This is all desktop based, I don't care about publishing from my phone.
 
-After some research I identified three options and ended up using two for different scenarii: 
+After some research I identified three options: 
 
 1. Open my local clone of the GitHub repository with Obsidian: easy to setup but: I didn't like the idea of having a second vault open (which I need to setup with all the nice things I already use, like [Templater](https://github.com/SilentVoid13/Templater)) and, I would need to open the terminal or my IDE to stash/commit/push changes.
-2. Sync scripts: people have already done the hard work. [Rach Smith's Obsidian-to-astro-sync](https://github.com/rachsmithcodes/obsidian-to-astro-sync/tree/main?tab=readme-ov-file) (related [blog post](https://rachsmith.com/automating-obsidian-to-astro/)) is a script that copies the files in a designated it to a local clone of your site. The good part is that it processes images and links and maintain a very clean structure in your Obsidian vault. This is the solution I use when I need a local preview.
-3. Obsidian git + sparse checkout: a hybrid setup to pull my website content directory inside Obsidian. This is inspired by [Steph Ango's (CEO of Obsidian) setup](https://stephango.com/vault), its' what I use when I blindly trust the output and just want to push content straight to my site.
+2. Sync scripts: people have already done the hard work. [Rach Smith's Obsidian-to-astro-sync](https://github.com/rachsmithcodes/obsidian-to-astro-sync/tree/main?tab=readme-ov-file) (related [blog post](https://rachsmith.com/automating-obsidian-to-astro/)) is a script that copies the files in a designated it to a local clone of your site. The good part is that it processes images and links and maintain a very clean structure in your Obsidian vault. The downside is that if I just want to update some content, I need to open Obsidian + run the sync script + push from the terminal or my IDE.
+3. Pull a subset of my website inside Obsidian with Obsidian git and sparse checkout. This is inspired by [Steph Ango's (CEO of Obsidian) setup](https://stephango.com/vault) and the solution I ended up using.
 
-Here is how I implement option 3.
-### Obsidian git + sparse checkout 
+Here is how to set it up.
+### Pulling Astro content inside Obsidian with Obsidian git and sparse checkout
 
-The idea with this method is to have only a part of my GiHub repository (the part with the content `src/data/` and `src/assets/images`) pulled inside my Obsidian vault. This has two benefits: 1. I have my content available inside my existing Obsidian vault, and 2. I can easily push content to my repo with the Git integration, triggering a GitHub Action that builds and deploy my site.
+The idea with this method is to have only a part of my GiHub repository (the part with the content, `src/data/` and `src/assets/images` in my case) pulled inside my Obsidian vault. This has two benefits: 
+1. I have my content available inside my existing Obsidian vault, and 
+2. I can easily push content to my repo with the Git integration, triggering a GitHub Action that builds and deploy my site.
+
+> Note: If I want a local preview, I sync my local project (git pull) and run Astro locally 
 
 This solution makes use of sparse-checkout, a handy little command I did not know about. [This GitHub blog post](https://github.blog/open-source/git/bring-your-monorepo-down-to-size-with-sparse-checkout/) was immensely useful to understand how to use it.
 
 *Two notable downsides*:
-- Images inside of blog posts won't display because paths are different (this would also happen with the first option described above)
+- You need to use relative path for images to display in Obsidian (`../../assets/images/blog/image.png` in my case) instead of something like `@/assets/images/blog/image.png`.
 - Slightly cumbersome directory structure (posts are stored appear in `Blog/src/data/blog/`)
-
 #### How to
 
 Note: you'll need to have Git installed and authentication setup.
@@ -58,7 +59,7 @@ cd Blog
 git sparse-checkout init
 ```
 
-3. Set the directories you want to download with your checkout. Feel free to add/remove according to your setup to only pull the content that you want to edit in Obsidian
+3. Set the directories you want to pull with your checkout. Feel free to add/remove according to your setup to only pull the content that you want to edit in Obsidian
 
 ```sh
 echo "src/data/" >> .git/info/sparse-checkout
