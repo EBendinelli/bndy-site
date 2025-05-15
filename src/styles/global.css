@@ -145,19 +145,26 @@ a{
 }
 
 p{
-  @apply font-light;
+  @apply font-normal;
 }
 
 .prose{
-  @apply text-lg/8;
+  @apply text-lg/7;
 }
 
 .prose p{
-  @apply mb-0 font-light;
+  @apply mb-0 font-normal;
 }
 
 .prose ul{
   @apply mt-0;
+}
+
+.wide{
+  @apply max-w-5xl;
+  max-width: Min(100vw, var(--container-5xl));
+  width: Min(100vw, var(--container-5xl));
+  margin-left: calc((Min(100vw,var(--container-5xl)) - 100%)/-2);
 }
 
 .active-nav {
