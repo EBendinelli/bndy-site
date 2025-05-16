@@ -2,6 +2,7 @@ import { Resvg } from "@resvg/resvg-js";
 import { type CollectionEntry } from "astro:content";
 import postOgImage from "./og-templates/post";
 import siteOgImage from "./og-templates/site";
+import projectOgImage from "./og-templates/project";
 
 function svgBufferToPngBuffer(svg: string) {
   const resvg = new Resvg(svg);
@@ -11,6 +12,11 @@ function svgBufferToPngBuffer(svg: string) {
 
 export async function generateOgImageForPost(post: CollectionEntry<"blog">) {
   const svg = await postOgImage(post);
+  return svgBufferToPngBuffer(svg);
+}
+
+export async function generateOgImageForProject(project: CollectionEntry<"projects">) {
+  const svg = await projectOgImage(project);
   return svgBufferToPngBuffer(svg);
 }
 
