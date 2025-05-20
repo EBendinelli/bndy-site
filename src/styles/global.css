@@ -149,7 +149,7 @@ p{
 }
 
 .prose{
-  @apply text-lg/7;
+  @apply text-base/6 sm:text-lg/7 ;
 }
 
 .prose p{
