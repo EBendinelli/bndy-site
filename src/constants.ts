@@ -16,24 +16,28 @@ export const SOCIALS = [
     href: "https://github.com/ebendinelli",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
+    rel: "noopener",
   },
   {
     name: "Mastodon",
     href: "https://mamot.fr/@bendineliot",
     linkTitle: `${SITE.title} on Mastodon`,
     icon: IconMastodon,
+    rel: "me",
   },
   {
     name: "Bluesky",
     href: "https://bsky.app/profile/bndy.org",
     linkTitle: `${SITE.title} on Bluesky`,
     icon: IconBluesky,
+    rel: "noopener",
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/eliotbendinelli/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
+    rel: "noopener",
   },
   // {
   //   name: "Mail",
