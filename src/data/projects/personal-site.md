@@ -1,5 +1,5 @@
 ---
-title: 'This site'
+title: 'bndy.org'
 description: A blog, a portfolio, but mostly an excuse to write some code and update my web-development knowledge.
 category: "Tech"
 featured: false
