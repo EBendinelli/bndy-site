@@ -90,8 +90,8 @@ html[data-theme="dark"] {
 
 @theme {
   --font-sans: 'Inter Variable', 'sans-serif';
-  /* --font-mono: 'Roboto Mono Variable', monospace; */
-  --font-headers: 'Montserrat Variable', 'sans-serif';
+  --font-mono: 'Roboto Mono Variable', monospace;
+  --font-headers: 'Rubik Variable', 'sans-serif';
 }
 
 @theme inline {
@@ -168,7 +168,7 @@ p{
 }
 
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-4;
+  @apply underline decoration-wavy decoration-[1.4px] underline-offset-6;
 }
 
 .rounded-image{
