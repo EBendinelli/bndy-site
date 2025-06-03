@@ -17,10 +17,10 @@ importers:
       '@fontsource-variable/inter':
         specifier: ^5.2.5
         version: 5.2.5
-      '@fontsource-variable/montserrat':
+      '@fontsource-variable/roboto-mono':
         specifier: ^5.2.5
         version: 5.2.5
-      '@fontsource-variable/roboto-mono':
+      '@fontsource-variable/rubik':
         specifier: ^5.2.5
         version: 5.2.5
       '@resvg/resvg-js':
@@ -381,11 +381,11 @@ packages:
   '@fontsource-variable/inter@5.2.5':
     resolution: {integrity: sha512-TrWffUAFOnT8zroE9YmGybagoOgM/HjRqMQ8k9R0vVgXlnUh/vnpbGPAS/Caz1KIlOPnPGh6fvJbb7DHbFCncA==}
 
-  '@fontsource-variable/montserrat@5.2.5':
-    resolution: {integrity: sha512-Mfg/AiXwhPLAAgLCqzugFUs/PLprbHzXMhPVrf35q5od4/wHjVqtm0bI000tKGUGDZ3gDpId/+cqufcYHAAAEQ==}
-
   '@fontsource-variable/roboto-mono@5.2.5':
     resolution: {integrity: sha512-JsvF7AvjgqGBKCtVuBE5rdYrTdx8yY61Ralo0n6wnlWLCtYAHnj7NjHmpWWvSq9ROKByRfropM7VyeO0a66M3Q==}
+
+  '@fontsource-variable/rubik@5.2.5':
+    resolution: {integrity: sha512-6tXqnHFA9/ItIEODfH5LrzLSmcNE5TXD8OuXx14cvmS7j1zX4JgEHjYrhlWhLGuBXXzrOnz0A0oMheMMbXwmWA==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2974,9 +2974,9 @@ snapshots:
 
   '@fontsource-variable/inter@5.2.5': {}
 
-  '@fontsource-variable/montserrat@5.2.5': {}
-
   '@fontsource-variable/roboto-mono@5.2.5': {}
+
+  '@fontsource-variable/rubik@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 
