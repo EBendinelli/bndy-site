@@ -90,8 +90,8 @@ html[data-theme="dark"] {
 
 @theme {
   --font-sans: 'Inter Variable', 'sans-serif';
-  /* --font-mono: 'Roboto Mono Variable', monospace; */
-  --font-headers: 'Montserrat Variable', 'sans-serif';
+  --font-mono: 'Roboto Mono Variable', monospace;
+  --font-headers: 'Rubik Variable', 'sans-serif';
 }
 
 @theme inline {
@@ -145,23 +145,30 @@ a{
 }
 
 p{
-  @apply font-light;
+  @apply font-normal;
 }
 
 .prose{
-  @apply text-lg/8;
+  @apply text-base/6 sm:text-lg/7 ;
 }
 
 .prose p{
-  @apply mb-0 font-light;
+  @apply mb-0 font-normal;
 }
 
 .prose ul{
   @apply mt-0;
 }
 
+.wide{
+  @apply max-w-5xl;
+  max-width: Min(100vw, var(--container-5xl));
+  width: Min(100vw, var(--container-5xl));
+  margin-left: calc((Min(100vw,var(--container-5xl)) - 100%)/-2);
+}
+
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-4;
+  @apply underline decoration-wavy decoration-[1.4px] underline-offset-6;
 }
 
 .rounded-image{

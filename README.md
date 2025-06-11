@@ -47,28 +47,9 @@ All blog posts are stored in `src/data/blog` directory.
 
 ## 👨🏻‍💻 Running Locally
 
-You can start using this project locally by running the following command in your desired directory:
-
-```bash
-# pnpm
-pnpm create astro@latest --template bendinelli/bndy-site
-
-# npm
-npm create astro@latest -- --template bendinelli/bndy-site
-
-# yarn
-yarn create astro --template bendinelli/bndy-site
-```
-
-Then start the project by running the following commands:
-
-```bash
-# install dependencies if you haven't done so in the previous step.
-pnpm install
-
-# start running the project
-pnpm run dev
-```
+- Clone project: `git clone https://github.com/EBendinelli/bndy-site.git`
+- Install dependencies: `pnpm install`
+- Run: `pnpm run dev`
 
 ## 🧞 Commands
 

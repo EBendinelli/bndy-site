@@ -3,12 +3,9 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Eliot Bendinelli, I'm a musician, a privacy nerd, a developer, and an internet dreamer that hasn't lost all hope, yet. I've worked in UN organisations ([ITU](itu.int), [UNEP](unep.org)), a European [think tank](https://www.thinkyoung.eu/), web companies ([Acyba](https://www.acymailing.com/) & [Hikashop](https://www.hikashop.com/)) and for the past 6 years, I was at [Privacy International](https://privacyinternational.org) as Technologist and Programme Lead for the Corporate Exploitation programme. 
+I'm Eliot Bendinelli, I'm a privacy advocate, a musician, a developer, an open-source believer and an internet dreamer that hasn't lost all hope, yet. Between 2018 and 2025 I worked at [Privacy International](https://privacyinternational.org) as Technologist and Programme Lead for the Corporate Exploitation programme. Before that I worked in UN organisations ([ITU](itu.int), [UNEP](unep.org)), a European [think tank](https://www.thinkyoung.eu/) and for web companies ([Acyba](https://www.acymailing.com/) & [Hikashop](https://www.hikashop.com/)).
 
-In that position, I worked to defend privacy and challenge government and corporate surveillance, conducting technical research, leading successful advocacy and policy efforts, and coordinating global 
-campaigns against abusive uses of technology, strengthening access to human rights in the digital world. 
-
-I am currently supporting a fairly new organisation, [Data Rights](https://datarights.ngo), to develop its strategy on data portability and interoperability matters with the aim to open up tech monopolies while protecting privacy and security. 
+I now work with [Data Rights](https://datarights.ngo) to develop its strategy on data portability and interoperability matters, with the aim to open up tech monopolies while protecting privacy and security. 
 
 I also offer consultancy services including policy development, educational content, advocacy strategy, tech research and AI position development. Don't hesitate to [get in touch](mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#101;&#108;&#105;&#111;&#116;&#098;&#101;&#110;&#100;&#105;&#110;&#101;&#108;&#108;&#105;&#046;&#099;&#111;&#109;) if you want to have a chat.
 
@@ -36,12 +33,14 @@ I also offer consultancy services including policy development, educational cont
 
 ### Artificial Intelligence and Automated decision-making
 
+- **Essay**: [Are AI Assistants built for us or to exploit us? and other questions for the AI industry](https://privacyinternational.org/news-analysis/5591/are-ai-assistants-built-us-or-exploit-us-and-other-questions-ai-industry), Privacy International, 2025
 - **Essay**: [Your future AI Assistant still needs to earn your trust](https://privacyinternational.org/long-read/5555/your-future-ai-assistant-still-needs-earn-your-trust), Privacy International, 2025
 - **Essay**: [Generative AI won't take over the world, surveillance capitalism already has](https://privacyinternational.org/news-analysis/5331/generative-ai-wont-take-over-world-surveillance-capitalism-already-has), Privacy International, 2024
 - **Interview**: [How AI impacts Human Rights](https://foundation.mozilla.org/en/blog/how-ai-impacts-human-rights/), Mozilla Foundation, 2024
 
 ### Gig Economy, Algorithmic management and workplace surveillance
 
+- **Advocacy**: [Joint declaration in support of standards on decent work in the platform economy at the international labour conference 2025](https://privacyinternational.org/sites/default/files/2025-06/ILC2025%20Joint%20Statement.pdf), Privacy International, 2025
 - **Policy recommendations**: [Transparency and explainability for algorithmic decisions at work](https://gigeconomy.privacyinternational.org/), Privacy International, 2025
 - **Research**: [Creating content in the gig economy: a risky business](https://www.privacyinternational.org/long-read/5013/creating-content-gig-economy-risky-business), Privacy International, 2023
 
@@ -51,6 +50,6 @@ I also offer consultancy services including policy development, educational cont
 - [Biometrics Institute Congress 2023](https://www.biometricsinstitute.org/?smd_process_download=1&download_id=14758), panelist
 - Privacy Symposium Africa 2023, panelist
 - [PrivacyCamp 2022](https://privacycamp.eu/panel-the-dsa-its-future-enforcement-and-the-protection-of-fundamental-rights/), panelist
-- [Blackhat 2019, speaker](https://media.privacyinternational.org/videos/embed/22b01a52-e9bb-4de1-8bc5-14203a4621e3). Talk on depression website tracking users (Your Mental Health for Sale)
+- [Blackhat 2019](https://media.privacyinternational.org/videos/embed/22b01a52-e9bb-4de1-8bc5-14203a4621e3), speaker. Talk on depression website tracking users (Your Mental Health for Sale)
 - Internet Freedom Festival 2019, speaker
 - Digital Security EduCon, 2019, speaker 
