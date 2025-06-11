@@ -5,21 +5,21 @@ modDatetime:
 title: The imperfect choice is the right one
 slug: the-imperfect-choice-is-the-right-one
 featured: false
-draft: true
+draft: false
 tags:
   - tech
   - openweb
 description: No choice is ever perfect, but when it comes to technology, embracing the imperfections is what drives progress (or why I use Mastodon)
 ---
-I'm someone who can struggle with choice. Not for everything, not all the time, but in some situation I'll go back and forth between different options, always obsessing over the downside of the option I've chosen and the benefits of the one I discarded. Heck, I had 3 domain names for this site at some point!
+I'm someone who can struggle with choice. Not for everything, not all the time, but in some situations I'll go back and forth between different options, always obsessing over the downside of the option I've chosen and the benefits of the one I discarded. Heck, I had 3 domain names for this site at some point!
 
-Yet in the end, the choice rarely matters. What matter is how I end up dealing with the consequences of that choice, and what I chose to embrace. What I decided is the most important aspect, and what imperfections I'm willing to accept. 
+Yet in the end, the choice rarely matters. What matters is how I end up dealing with the consequences of that choice, and what I choose to embrace. What I decided is the most important aspect, and what imperfections I'm willing to accept. 
 
-If you look at the tech landscape right now, you might find it a bit crap: the most popular services are all controlled by Big Tech companies - most of which are on trials for abusing their dominant position and rushing to support militarisation efforts; the exploitation of personal data and privacy seems to remain the main business model for big internet services; and everybody is obsessed with [a tech-we-shall-not-name](/posts/why-i-would-rather-push-against-ai) that happens to have horrendous level of energy consumption with a hallucination problem that might not have a fix. Among other things.
+If you look at the tech landscape right now, you might find it a bit crap: the most popular services are all controlled by Big Tech companies, most of which are on trial for abusing their dominant position and rushing to support militarisation efforts; the exploitation of personal data and privacy seems to remain the main business model for big internet services; and everybody is obsessed with [a tech-we-shall-not-name](/posts/why-i-would-rather-push-against-ai) that happens to have horrendous levels of energy consumption with a hallucination problem that might not have a fix. Among other things.
 
-Yet, as users, consumers or technologists, we still have to make choices. How are you going to share that document? What tool are you going to use to create that slideshow? What social media platform are you going to use for lurking and/or self-promotion? How are you going to monitor website visits?
+Yet, as users, consumers, or technologists, we still have to make choices. How are you going to share that document? What tool are you going to use to create that slideshow? What social media platform are you going to use for lurking and/or self-promotion? How are you going to monitor website visits?
 
-For some people those choices will be easy. Pick what people around you use, what your company is paying for, what the first Google result promotes. But if you care about where technology is going and see your choice as a pressure lever, then those choices can be hard.
+For some people those choices will be easy. Pick what people around you use. What your company is paying for. What the first Google result promotes. But if you care about where technology is going and see your choice as a pressure lever, then those choices can be hard.
 
 ## Mastodon vs Bluesky
 
@@ -27,10 +27,10 @@ Recently I was pondering creating a Bluesky account. [I joined Mastodon](https:/
 
 After trying it out and setting up a [PDS](https://github.com/bluesky-social/pds) for good measure, I eventually stood in front of my Bluesky account with no followers and no followed accounts and... deleted it. 
 
-Mastodon has issues. And so does Buesky. But in the end, even without considering the cost of migration at a time where data portability on social media basically sucks, Mastodon's vision of the web simply aligns more with mine. It's an *already* decentralised and federated network which gives me control over my data and built on open internet standards. [It's not perfect by any means](https://2ality.com/2024/11/mastodon-weaknesses.html), but it's not VC-funded either and is closer to how I see decentralisation [than what Bluesky proposes](https://dustycloud.org/blog/how-decentralized-is-bluesky/).
+Mastodon has issues. And so does Buesky. But in the end, even without considering the cost of migration at a time when data portability on social media basically sucks, Mastodon's vision of the web simply aligns more with mine. It's an *already* decentralised and federated network that gives me control over my data and is built on open internet standards. [It's not perfect by any means](https://2ality.com/2024/11/mastodon-weaknesses.html), but it's not VC-funded either and is closer to how I see decentralisation [than what Bluesky proposes](https://dustycloud.org/blog/how-decentralized-is-bluesky/).
 
-And at the end of the day, I just want to be part of this side of the internet, community-centred, federated, open-source, figuring-it-out-as-it-goes. Just one more reported active user that might motivate people to create their own account. Just being there is what matters.
+And at the end of the day, I just want to be part of this side of the internet, community-centred, federated, open-source, figuring-it-out-as-it-goes. Just one more reported active user which might motivate people to create their own account. Just being there is what matters.
 
-So embrace the faults, stand with your values and take part in the movement.
+So embrace the faults, stand with your values, and join the movement.
 
-> BONUS: making  choice doesn't mean excluding yourself from some fun, we're talking about open and (somewhat) interoperable services after all! So if you want to be present on both of these network but only active on one, checkout [Bridgy Fed](https://fed.brid.gy/), a bridging service I saw recommended by [Ian Brown](https://www.ianbrown.tech/2024/10/09/mastodon-and-bluesky-show-interoperability-in-action/). It's a marvel of openwebness developed by [Ryan Barrett](https://snarfed.org/about), that you can use to bridge Mastodon to Bluesky and vice-versa. So yeah, you can also find me on [Bluesky](https://bsky.app/profile/bendineliot.mamot.fr.ap.brid.gy)
+> BONUS: making choices doesn't mean excluding yourself from some fun. We're talking about open and (somewhat) interoperable services after all! So if you want to be present on both of these networks but only active on one, check out [Bridgy Fed](https://fed.brid.gy/), a bridging service I saw recommended by [Ian Brown](https://www.ianbrown.tech/2024/10/09/mastodon-and-bluesky-show-interoperability-in-action/). It's a marvel of openwebness developed by [Ryan Barrett](https://snarfed.org/about), that you can use to bridge Mastodon to Bluesky and vice versa. So yeah, you can also find me on [Bluesky](https://bsky.app/profile/bendineliot.mamot.fr.ap.brid.gy)
