@@ -28,7 +28,8 @@ After some research I identified three options:
 3. Pull a subset of my website inside Obsidian with Obsidian git and sparse checkout. This is inspired by [Steph Ango's (CEO of Obsidian) setup](https://stephango.com/vault) and the solution I ended up using.
 
 Here is how to set it up.
-### Pulling Astro content inside Obsidian with Obsidian git and sparse checkout
+
+## Pulling Astro content inside Obsidian with Obsidian git and sparse checkout
 
 The idea with this method is to have only a part of my GiHub repository (the part with the content, `src/data/` and `src/assets/images` in my case) pulled inside my Obsidian vault. This has two benefits: 
 1. I have my content available inside my existing Obsidian vault, and 
@@ -41,7 +42,8 @@ This solution makes use of sparse-checkout, a handy little command I did not kno
 *Two notable downsides*:
 - You need to use relative path for images to display in Obsidian (`../../assets/images/blog/image.png` in my case) instead of something like `@/assets/images/blog/image.png`.
 - Slightly cumbersome directory structure (posts are stored appear in `Blog/src/data/blog/`)
-#### How to
+
+### How to
 
 Note: you'll need to have Git installed and authentication setup.
 

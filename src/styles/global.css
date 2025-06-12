@@ -132,7 +132,7 @@ html[data-theme="dark"] {
   }
 
   h1{
-    @apply font-semibold tracking-wider leading-12 text-5xl;
+    @apply font-semibold tracking-wider leading-12 text-3xl;
   }
 
   h2{
