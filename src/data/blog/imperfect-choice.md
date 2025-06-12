@@ -2,7 +2,7 @@
 author: Eliot Bendinelli
 pubDatetime: 2025-06-11
 modDatetime: 
-title: There is not right choice (or picking Mastodon over Bluesky)
+title: There is no right choice (or picking Mastodon over Bluesky)
 slug: there-is-no-right-choice-mastodon-bluesky
 featured: false
 draft: false
