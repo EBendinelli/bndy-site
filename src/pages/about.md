@@ -50,6 +50,6 @@ I also offer consultancy services including policy development, educational cont
 - [Biometrics Institute Congress 2023](https://www.biometricsinstitute.org/?smd_process_download=1&download_id=14758), panelist
 - Privacy Symposium Africa 2023, panelist
 - [PrivacyCamp 2022](https://privacycamp.eu/panel-the-dsa-its-future-enforcement-and-the-protection-of-fundamental-rights/), panelist
-- [Blackhat 2019](https://media.privacyinternational.org/videos/embed/22b01a52-e9bb-4de1-8bc5-14203a4621e3), speaker. Talk on depression website tracking users (Your Mental Health for Sale)
+- [Blackhat 2019](https://media.privacyinternational.org/w/5hroFUYCkMXzLb9EtCZAcn), speaker. Talk on depression website tracking users (Your Mental Health for Sale)
 - Internet Freedom Festival 2019, speaker
 - Digital Security EduCon, 2019, speaker 
