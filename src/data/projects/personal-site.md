@@ -4,13 +4,13 @@ description: A blog, a portfolio, but mostly an excuse to write some code and up
 category: "Tech"
 featured: false
 active: true
-startDate: 2025-10-01
+startDate: 2025-03-01
 slug: this-site
-coverImage: ../../assets/images/projects/tech-default.png
+coverImage: ../../../public/favicon.svg
 seo:
   image:
-    src: '../../assets/images/projects/tech-default.png'
-    alt: Project preview
+    src: '../../../public/favicon.svg'
+    alt: bndy.org - this site
 ---
 
 I'm not a full time web developer anymore and so every couple of years I try to give myself a new tech project/challenge to keep my skills sharps and learn new things.
