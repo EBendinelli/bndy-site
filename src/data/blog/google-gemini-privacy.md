@@ -2,15 +2,15 @@
 author: Eliot Bendinelli
 pubDatetime: 2025-07-09
 modDatetime: 
-title: Untitled
+title: Why does Google wants Gemini to access your Whatsapp messages?
 slug: google-gemini-ai-assistant-privacy-risk
 featured: false
-draft: true
+draft: false
 tags:
   - tech
-description:
+description: Google wants it's AI assistant to be the centrepiece of your digital life, but the privacy and security cost is high
 ---
-In the last few days, I've seen [multiple](https://www.androidauthority.com/gemini-apps-activity-email-july-7-3570651/) [coverage](https://arstechnica.com/security/2025/07/unless-users-take-action-android-will-let-gemini-access-third-party-apps/?comments-page=1#comments) of an announcement from Google (or rather an email to its users) about a change in Gemini's policy. The change would allegedly allow it to access third-party apps like Whatsapp, Phone and Messages by default on Android. 
+In the last few days, I've seen [a lot](https://www.laptopmag.com/ai/gemini-phone-access-update) [of](https://www.androidauthority.com/gemini-apps-activity-email-july-7-3570651/) [coverage](https://arstechnica.com/security/2025/07/unless-users-take-action-android-will-let-gemini-access-third-party-apps/?comments-page=1#comments) of an announcement from Google (or rather an email to its users) about a change in Gemini. The change would allegedly allow it to access third-party apps like Whatsapp, Phone and Messages by default on Android. 
 
 I have not received said email (despite still having a Google account I monitor once in a while) but I can tell this is not really news. A couple of months ago, I tested Gemini and a few other AI chatbot apps on Android to examine how they interacted with other apps. Gemini already had this feature, and you could turn it off. 
 
