@@ -7,7 +7,7 @@ import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
-import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconRss from "@/assets/icons/IconRss.svg";
 import { SITE } from "@/config";
 
 export const SOCIALS = [
@@ -37,6 +37,13 @@ export const SOCIALS = [
     href: "https://www.linkedin.com/in/eliotbendinelli/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
+    rel: "noopener",
+  },
+    {
+    name: "RSS",
+    href: "/rss.xml",
+    linkTitle: `RSS feed for ${SITE.title}`,
+    icon: IconRss,
     rel: "noopener",
   },
   // {
