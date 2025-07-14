@@ -3,6 +3,7 @@ import { slugifyStr } from "@/utils/slugify";
 import type { CollectionEntry } from "astro:content";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
+import IconCalendar from "@/assets/icons/IconCalendar.svg";
 
 export interface Props extends CollectionEntry<"blog"> {
   variant?: "h2" | "h3";
@@ -19,18 +20,34 @@ const headerProps = {
 ---
 
 <li class="my-6">
-  <a
-    href={getPath(id, filePath)}
-    class="inline-block text-xl font-medium underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0 mb-1 hover:text-accent"
-  >
-    {
-      variant === "h2" ? (
-        <h2 {...headerProps}>{title}</h2>
-      ) : (
-        <h3 {...headerProps}>{title}</h3>
-      )
-    }
-  </a>
-  <Datetime {pubDatetime} {modDatetime} {timezone} />
-  <p class="mt-2 text-muted">{description}</p>
+  <div class="flex flex-col gap-1 items-start sm:flex-row sm:gap-4">
+    <div class="hidden text-base text-muted font-mono mb-1 sm:block sm:mb-0 sm:min-w-[7.5rem] sm:pt-1 sm:text-base">
+      {pubDatetime ? pubDatetime.toISOString().slice(0, 10).replace(/-/g, '.') : ''}
+    </div>
+    <a href={getPath(id, filePath)} class="hover:text-accent">
+      <div class="flex-1">
+        <span
+          class="inline-block text-xl font-medium underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0 mb-1"
+        >
+          {
+            variant === "h2" ? (
+              <h2 {...headerProps}>{title}</h2>
+            ) : (
+              <h3 {...headerProps}>{title}</h3>
+            )
+          }
+        </span>
+        <div class="block sm:hidden text-base text-sm opacity-80 font-mono mb-1 italic">
+          <IconCalendar
+            class:list={[
+              "inline-block size-6 min-w-[1.375rem]",
+              { "scale-90":"sm" },
+            ]}
+          />
+          {pubDatetime ? pubDatetime.toISOString().slice(0, 10).replace(/-/g, '.') : ''}
+        </div>
+        <p class="text-muted">{description}</p>
+      </div>
+    </a>
+  </div>
 </li>
