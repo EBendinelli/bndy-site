@@ -10,6 +10,7 @@ tags:
   - tech
   - openweb
 description: No choice is ever perfect, but when it comes to technology, embracing the imperfections is what matters (or why I use Mastodon)
+Type: "[[Blog posts]]"
 ---
 I'm someone who can struggle with choice. Not for everything, not all the time, but in some situations I'll go back and forth between different options, always obsessing over the downside of the option I've chosen and the benefits of the one I discarded. Heck, I had three domain names for this site at some point!
 
