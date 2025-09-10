@@ -3,11 +3,11 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Eliot Bendinelli, I'm a privacy advocate, a musician, a developer, an open-source believer and an internet dreamer that hasn't lost all hope, yet. Between 2018 and 2025 I worked at [Privacy International](https://privacyinternational.org) as Technologist and Programme Lead for the Corporate Exploitation programme. Before that I worked in UN organisations ([ITU](itu.int), [UNEP](unep.org)), a European [think tank](https://www.thinkyoung.eu/) and for web companies ([Acyba](https://www.acymailing.com/) & [Hikashop](https://www.hikashop.com/)).
+I'm Eliot Bendinelli, I'm a digital rights advocate, technologist, musician, open-source believer and internet dreamer that hasn't lost all hope, yet. Between 2018 and 2025 I worked at [Privacy International](https://privacyinternational.org) as Senior Technologist and Director of the Corporate Exploitation programme. Before that I worked in UN organisations ([ITU](itu.int), [UNEP](unep.org)), a European [think tank](https://www.thinkyoung.eu/) and for web companies ([Acyba](https://www.acymailing.com/) & [Hikashop](https://www.hikashop.com/)).
 
-I now work with [Data Rights](https://datarights.ngo) to develop its strategy on data portability and interoperability matters, with the aim to open up tech monopolies while protecting privacy and security. 
+I currently work with [Data Rights](https://datarights.ngo) to develop its strategic initiatives at the intersection of competition and data protection, with the aim to open up tech monopolies while protecting privacy and security. 
 
-I also offer consultancy services including policy development, educational content, advocacy strategy, tech research and AI position development. Don't hesitate to [get in touch](mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#101;&#108;&#105;&#111;&#116;&#098;&#101;&#110;&#100;&#105;&#110;&#101;&#108;&#108;&#105;&#046;&#099;&#111;&#109;) if you want to have a chat.
+I also offer consultancy services including policy development, advocacy strategy, tech research, educational content and AI position development. Don't hesitate to [get in touch](mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#101;&#108;&#105;&#111;&#116;&#098;&#101;&#110;&#100;&#105;&#110;&#101;&#108;&#108;&#105;&#046;&#099;&#111;&#109;) if you want to have a chat.
 
 
 
@@ -17,8 +17,9 @@ I also offer consultancy services including policy development, educational cont
 
 ## Expertise
 
-### Online advertising & Data Protection
+### Data Protection & Online advertising 
 
+- **Op-ed**: [Digital Sovereignty Requires More Than Just European Tech](https://www.techpolicy.press/digital-sovereignty-requires-more-than-european-tech/), Tech Policy Press, 2025, on the need for interoperability and data portability
 - **Op-ed**: [Criteo : « La décision de la CNIL s’attaque à la chaîne de production de données irresponsable qui règne dans l’industrie publicitaire en ligne »](https://www.lemonde.fr/idees/article/2023/08/30/criteo-la-decision-de-la-cnil-s-attaque-a-la-chaine-de-production-de-donnees-irresponsable-qui-regne-dans-l-industrie-publicitaire-en-ligne_6187094_3232.html), Le Monde, 2023, on Adtech company Criteo (co-author)
 - **Explainer**: [The companies in control of our secret identities](https://www.privacyinternational.org/long-read/4398/companies-control-our-secret-identities), Privacy International, 2021
 - **Technical research**: [Your Mental Health for Sale](https://privacyinternational.org/campaigns/your-mental-health-sale), Privacy International, 2019, research into depression websites tracking users and leaking personal data with advertisers ([report](https://www.privacyinternational.org/node/3193))
