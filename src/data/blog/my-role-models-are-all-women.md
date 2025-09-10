@@ -11,7 +11,7 @@ tags:
   - digital-rights
   - reflection
 description: And maybe yours should be too?
-Type: "Blog posts"
+Type: "[[Blog posts]]"
 ---
 This isn't meant to be particularly deep writing, more of an observation. I recently noticed that in the fields where I operate, my role models and inspirations are almost exclusively women. And I kind of love that.
 

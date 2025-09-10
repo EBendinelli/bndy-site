@@ -10,7 +10,7 @@ tags:
   - tech
   - knowledge-base
 description: How I write blog posts in markdown in Obsidian and synchronise them with my Astro site
-Type: "Blog posts"
+Type: "[[Blog posts]]"
 ---
 
 I use [Obsidian](obsidian.md) on a daily basis, it's my note-taking app, my journaling app, my project management app (to a certain extent) and more. 
