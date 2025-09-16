@@ -76,7 +76,7 @@ I've been using TIDAL for 3 months now and I'm really happy. The only complaint 
 
 I particularly like the shared link feature which offers the option to listen to the track on another service. 
 
-![[Pasted image 20250916112728.png]]
+![[tidal_music_share_page.png]]
 *A typical link share page. Also another [album you should check](https://tidal.com/browse/album/179302731/u)*
 
 I've been dreaming lately of a standard for opening music links that would be integrated into OSs and browsers. Just like when you click a URL you can open it with your favourite browser, I'd love to be able to share music links that are service independent and when clicked, simply open your favourite music streaming service. This is not it, but it's something.
