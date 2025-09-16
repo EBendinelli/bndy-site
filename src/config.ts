@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://bndy.org/", // replace this with your deployed domain
   author: "Eliot Bendinelli",
   profile: "https://bndy.org/",
-  desc: "Thoughs and projects by Eliot Bendinelli.",
+  desc: "Privacy thoughts, tech guides, reflections and personal projects.",
   title: "Eliot Bendinelli",
   ogImage: "favicon.svg",
   lightAndDarkMode: true,
