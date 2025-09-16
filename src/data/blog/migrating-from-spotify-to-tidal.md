@@ -8,7 +8,7 @@ featured: false
 draft: true
 tags:
   - music
-  - software
+  - tech
   - data-portability
 description: Using an open source tool to move my music library to a service that respects artists and doesn't fund AI powered military tech
 ---
@@ -30,9 +30,9 @@ So I decided to switch. I tested a few options that I discarded (Deezer: poor mu
 - Pays artists decently (options become quickly limited here)
 - Decent music recommendations/playlists
 - Artist radio feature (start a radio from a song/artist)
-- Doesn't fund defence tech companies
+- Not funding defense tech companies
 
-> Note: TIDAL is owned in majority by [Block](https://en.wikipedia.org/wiki/Block,_Inc.), a company founded by Jack Dorsey (the Twitter guy). I don't feel strongly about the guy either way. He's a bit too into crypto for my taste and I'm not into worshipping tech oligarchs anyway. But most of the projects he funds or supports fall into the "going into the right direction" category (see Nostr, Bluesky...), so I'll take it.
+> Note: TIDAL is owned in majority by [Block](https://en.wikipedia.org/wiki/Block,_Inc.), a company founded by Jack Dorsey (the Twitter guy). I don't feel strongly about the guy either way, he's a bit too into crypto for my taste and I'm not into worshipping tech oligarchs anyway. But most of the projects he funds or supports fall into the "going into the right direction" category (see Nostr, Bluesky...), so I'll take it.
 
 > Note 2: Because TIDAL doesn't offer podcast (and I'm totally fine with that), I reinstalled [AntennaPod](https://antennapod.org/), an amazing RSS/podcast manager for Android. It turned out to be much better than Spotify so big win here.
 
@@ -40,7 +40,7 @@ So I decided to switch. I tested a few options that I discarded (Deezer: poor mu
 
 Now for the interesting part: moving service. I'm a strong defender of the right to data portability, aka, the right to leave a service for another while bringing all your data. Think about it this way: it would be absurd if you could not bring your photos to a new phone because it's a different brand right? Well, I want the same experience when I'm moving to a new digital service, whatever it is. And in Europe, GDPR article 20 actually [mandates that](https://gdpr-info.eu/art-20-gdpr/). 
 
-But reality if often disappointing.
+But reality is often disappointing.
 
 Spotify allows users to download all their data, which I did. But my request to TIDAL to import the data was rejected. In the end, most music streaming platforms basically indicate using a third-party service to migrate your data. Qobuz even graciously [offers a code to access the premium](https://help.qobuz.com/en/articles/58315-how-to-transfer-your-playlists-for-free-with-soundiiz) version of one of these.
 
@@ -57,7 +57,8 @@ git clone https://github.com/spotify2tidal/spotify_to_tidal.git
 cd spotify_to_tidal
 python3 -m venv .venv
 source .venv/bin/activate 
-python -m pip install -e .```
+python -m pip install -e .
+```
 
 Then follow [these instructions](https://github.com/spotify2tidal/spotify_to_tidal/?tab=readme-ov-file#setup) to get a key. Update `config.yml` and run:
 
@@ -76,7 +77,7 @@ I've been using TIDAL for 3 months now and I'm really happy. The only complaint 
 
 I particularly like the shared link feature which offers the option to listen to the track on another service. 
 
-![[tidal_music_share_page.png]]
+![Screenshot of an album shared via TIDAL](@/assets/images/blog/tidal_music_share_page.png)
 *A typical link share page. Also another [album you should check](https://tidal.com/browse/album/179302731/u)*
 
 I've been dreaming lately of a standard for opening music links that would be integrated into OSs and browsers. Just like when you click a URL you can open it with your favourite browser, I'd love to be able to share music links that are service independent and when clicked, simply open your favourite music streaming service. This is not it, but it's something.
