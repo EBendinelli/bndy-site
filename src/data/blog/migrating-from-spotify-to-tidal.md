@@ -21,8 +21,8 @@ As a user, I really like Spotify. It does everything I wanted and because many o
 So [when the news hit a few months](https://www.business-humanrights.org/en/latest-news/spotify-faces-boycott-over-ceos-700m-investment-in-ai-military-defence-startup/) ago that Spotify CEO's Daniel Ek invested $700M in Helsing, a defence startup specialised in AI-powered combat drones and military software, I knew it was time to go.
 
 To be clear, this was just the tipping point. Here are a few other reasons Spotify was on my naughty list for a while:
-- They have been [underpaying artists](https://www.lalal.ai/blog/how-much-streaming-services-pay-artists-in-2024/), both objectively and compared to other platforms, for a long time 
-- They accept, and do not label, [AI-generated music](https://www.bbc.com/news/technology-66882414), which itself is created by exploiting existing music without compensating artists
+- They [underpay artists](https://www.lalal.ai/blog/how-much-streaming-services-pay-artists-in-2024/), both objectively and compared to other platforms, for a long time 
+- They accept, and do not label, [AI-generated music](https://www.bbc.com/news/technology-66882414), which exploits existing music without compensating artists
 - They reduced payment pay artists by "bundling" their music with audiobooks (a move approved by [US courts](https://www.musicradar.com/music-industry/spotify-win-major-court-case-allowing-them-to-pay-less-money-to-artists))
 - They partner with production companies hiring ghost artists to produce music that cost them less, at the expense of musicians' ability to make a living (I highly recommend reading [this investigation by Liz Pelly](https://web.archive.org/web/20250101060222/https://harpers.org/archive/2025/01/the-ghosts-in-the-machine-liz-pelly-spotify-musicians/) on the topic)
 
@@ -32,17 +32,17 @@ So I decided to switch. I tested a few options that I discarded (Deezer: poor mu
 - Artist radio feature (start a radio from a song/artist)
 - Not funding defense tech companies
 
-> Note: TIDAL is owned in majority by [Block](https://en.wikipedia.org/wiki/Block,_Inc.), a company founded by Jack Dorsey (the Twitter guy). I don't feel strongly about the guy either way, he's a bit too into crypto for my taste and I'm not into worshipping tech oligarchs anyway. But most of the projects he funds or supports fall into the "going into the right direction" category (see Nostr, Bluesky...), so I'll take it.
+> Note: TIDAL is owned in majority by [Block](https://en.wikipedia.org/wiki/Block,_Inc.), a company founded by Jack Dorsey (the Twitter guy). I don't feel strongly about the guy either way. He's a bit too into crypto for my taste and I'm not into worshipping tech oligarchs anyway. But most of the projects he funds or supports fall into the "going into the right direction" category (see Nostr, Bluesky...), so I'll take it.
 
 > Note 2: Because TIDAL doesn't offer podcast (and I'm totally fine with that), I reinstalled [AntennaPod](https://antennapod.org/), an amazing RSS/podcast manager for Android. It turned out to be much better than Spotify so big win here.
 
 ## Moving my music to TIDAL
 
-Now for the interesting part: moving service. I'm a strong defender of the right to data portability, aka, the right to leave a service for another while bringing all your data. Think about it this way: it would be absurd if you could not bring your photos to a new phone because it's a different brand right? Well, I want the same experience when I'm moving to a new digital service, whatever it is. And in Europe, GDPR article 20 actually [mandates that](https://gdpr-info.eu/art-20-gdpr/). 
+Now for the interesting part: moving service. I'm a strong defender of the right to data portability, aka, the right to leave a service for another while bringing all your data. Think about it this way: it would be absurd if you could not bring your photos to a new phone because it's a different brand right? Well, I want the same experience when I'm moving to a new digital service, whatever it is. And in Europe, GDPR Article 20 [mandates that](https://gdpr-info.eu/art-20-gdpr/). 
 
 But reality is often disappointing.
 
-Spotify allows users to download all their data, which I did. But my request to TIDAL to import the data was rejected. In the end, most music streaming platforms basically indicate using a third-party service to migrate your data. Qobuz even graciously [offers a code to access the premium](https://help.qobuz.com/en/articles/58315-how-to-transfer-your-playlists-for-free-with-soundiiz) version of one of these.
+Spotify allows users to download all their data, which I did. But my request to TIDAL to import the data was rejected. In the end, most music streaming platforms basically indicate using a third-party service to migrate your data. Qobuz even graciously [offers a code to access the premium](https://help.qobuz.com/en/articles/58315-how-to-transfer-your-playlists-for-free-with-soundiiz) version for one of these tools.
 
 TIDAL doesn't, and import with these tools is limited to 500 songs which is maybe a tenth of my music collection.
 
@@ -67,7 +67,7 @@ spotify_to_tidal
 ```
 
 
-Because I also wanted to import my favourite artists and album (yes, it's 2025 and I love a [good album](https://tidal.com/browse/album/278403634/u)), I used [this fork,](https://github.com/c0ball/spotify_to_tidal/tree/feat/sync-artists-albums) which is a work in progress adding this feature. It's not perfect and I had some issues but [the PR](https://github.com/spotify2tidal/spotify_to_tidal/pull/92) is almost merged.
+Because I also wanted to import my favourite artists and album (yes, it's 2025 and I love a [good album](https://tidal.com/browse/album/278403634/u)), I used [this fork,](https://github.com/c0ball/spotify_to_tidal/tree/feat/sync-artists-albums) which is a work in progress adding this feature. It's not perfect and I had some minor issues but [the PR](https://github.com/spotify2tidal/spotify_to_tidal/pull/92) is almost merged.
 
 > Privacy note: I checked network calls when running this tool and it didn't seem to leak any data. All the requests were going to Spotify or TIDAL. 
 
