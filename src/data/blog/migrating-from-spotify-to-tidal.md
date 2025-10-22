@@ -5,7 +5,7 @@ modDatetime:
 title: Migrating from Spotify to Tidal
 slug: migrating-from-spotify-to-tidal
 featured: false
-draft: true
+draft: false
 tags:
   - music
   - tech
