@@ -1,4 +1,4 @@
-# eliotbendinelli.com 🌍
+# bndy.org 🌍
 
 A home for my blog, portfolio and bio. Running [Astro](https://astro.build) and based on [Astropaper](https://astro-paper.pages.dev).
 
