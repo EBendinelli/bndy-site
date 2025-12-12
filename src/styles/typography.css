@@ -37,7 +37,13 @@
   .prose code,
   .prose blockquote {
     @apply break-words !font-light;
+
+    p{
+      @apply before:!content-[none];
+    }
   }
+
+  
 
   .prose table code {
     /* add line breaks whenever necessary for codes under table */
