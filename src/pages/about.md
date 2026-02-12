@@ -7,7 +7,7 @@ I'm Eliot Bendinelli, I'm a digital rights advocate, technologist, musician, ope
 
 I currently work with [Data Rights](https://datarights.ngo), a non-profit organisation that defends, enforces, and advances data rights all over Europe, to develop its strategic initiatives at the intersection of competition and data protection, with the aim to open up tech monopolies while protecting privacy and security. I'm also working with [OpenArchive](https://www.open-archive.org/), a nonprofit helping people preserve, organize and archive media, where I support with strategy development, outreach and technical research.
 
-I also offer consultancy services including policy development, advocacy strategy, tech research and tech analysis, educational content and AI position development. Don't hesitate to [get in touch](mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#101;&#108;&#105;&#111;&#116;&#098;&#101;&#110;&#100;&#105;&#110;&#101;&#108;&#108;&#105;&#046;&#099;&#111;&#109;) if you want to have a chat.
+I also offer consultancy services including policy development, advocacy strategy, tech research and tech analysis, educational content and AI position development. Don't hesitate to [get in touch](mailto:&#101;&#108;&#105;&#111;&#116;&#064;&#098;&#110;&#100;&#121;&#046;&#111;&#114;&#103;) if you want to have a chat.
 
 
 
