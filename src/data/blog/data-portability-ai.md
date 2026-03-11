@@ -13,7 +13,7 @@ description: On forcing the AI industry to build the next generation of platform
 ---
 > Note: I wrote a more politically correct version of this piece for [Tech Policy Press](https://www.techpolicy.press/can-the-digital-markets-act-free-users-data-in-the-ai-age/)
 
-If you ever moved to an alternative service or app, and struggled with how to not start from scratch, you already have experience with data portability. [Or its absence](](/posts/migrating-from-spotify-to-tidal/)). 
+If you ever moved to an alternative service or app, and struggled with how to not start from scratch, you already have experience with data portability. [Or its absence](/posts/migrating-from-spotify-to-tidal/)). 
 
 Being able to bring the data you created, be it photos from iCloud, notes from Evernote, or your reading history on Goodreads, to an equivalent service somewhere else is both an obvious right that should be afforded to users and an endless pit of disappointment when it comes to reality. 
 
