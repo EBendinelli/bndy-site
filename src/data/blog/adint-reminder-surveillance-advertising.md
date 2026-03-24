@@ -3,7 +3,7 @@ author: Eliot Bendinelli
 pubDatetime: 2026-03-11
 modDatetime:
 title: "Advertising intelligence: your latest reminder about surveillance advertising"
-slug: adint-nothing-new
+slug: adint-reminder-surveillance-advertising
 featured: false
 draft: false
 tags:
