@@ -8,8 +8,9 @@ featured: false
 draft: false
 tags:
   - tech
-  - "#AI"
+  - AI
   - reflection
+  - Internet
 description: Trying to answer the question "would I have been against the internet?"
 ---
 There's this one question that I keep coming back to whenever I'm reading or thinking about AI: If I had been 35 when the internet blew up, would I have been against it?
