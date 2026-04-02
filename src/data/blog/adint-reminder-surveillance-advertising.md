@@ -16,7 +16,7 @@ A few months ago, some friends shared a (great) [article published by Martin Unt
 
 So here are some thoughts. On what the ADINT is really about, how new it really is, what it tells about how the internet works and, most importantly, what we can do about it.
 
-> *TLDR; The online advertising industry is a surveillance machine that collects an processes massive amounts of personal information. This information can be purchased by almost anyone. Private companies selling this data to law enforcement are just a side effect of the business model. Governments, and other nefarious actors, were already buying and exploiting this data before these companies emerged. We can fix this, the internet doesn't have to come with built-in surveillance to function.*
+> *TLDR; The online advertising industry is a surveillance machine that collects and processes massive amounts of personal information. This information can be purchased by almost anyone. Private companies selling this data to law enforcement are just a side effect of the business model. Governments, and other nefarious actors, were already buying and exploiting this data before these companies emerged. We can fix this, the internet doesn't have to come with built-in surveillance to function.*
 
 ## Advertising Intelligence?
 
