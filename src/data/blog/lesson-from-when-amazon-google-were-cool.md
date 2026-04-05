@@ -11,9 +11,9 @@ tags:
   - tech
   - books
   - decentralisation
-description: From Cory Doctorow's endorsement of Amazon in the 2008 version of Little Brother to building the future of tech
+description: From Cory Doctorow's endorsement of Amazon in Little Brother to building the future of tech
 ---
-Recently I started reading [Little Brother](https://craphound.com/littlebrother/Cory_Doctorow_-_Little_Brother.pdf) by Cory Doctorow. A former colleague recommended it to me a while ago and told me it had blown her mind when she was younger. Long story short, I did not enjoy it. In its defence, it was written in 2008, the world and technology were different back then and I have since spent a decade working on the surveillance issues, a core topic of the book, so maybe I'm just not the right audience.þ
+Recently I started reading [Little Brother](https://craphound.com/littlebrother/Cory_Doctorow_-_Little_Brother.pdf) by Cory Doctorow. A former colleague recommended it to me a while ago and told me it had blown her mind when she was younger. Long story short, I did not enjoy it. In its defence, it was written in 2008, the world and technology were different back then and I have since spent a decade working on the surveillance issues, a core topic of the book, so maybe I'm just not the right audience.
 
 I did, however, enjoy the intro. In it, Doctorow talks about the writing process, and explains his choice of copyright (CC BY-NC-SA 3.0) which is the reason the link above redirects to the full book, hosted on his own site. Along with this, he explains that each chapter is dedicated to a bookstore he loves, simply as a way to remind people to buy books to support authors if they can.
 
