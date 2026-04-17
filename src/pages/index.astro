@@ -13,9 +13,12 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import ProjectCard from "@/components/ProjectCard.astro";
+import Tag from "@/components/Tag.astro";
+import getUniqueTags from "@/utils/getUniqueTags";
 
 const posts = await getCollection("blog");
 const projects = await getCollection("projects", ({ data }) => !data.draft);
+let tags = getUniqueTags(posts);
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
@@ -65,7 +68,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
 
     <Hr />
 
-    {
+    <!-- {
       featuredProjects.length > 0 && (
         <>
           <section id="featured-work" class="pt-12 pb-6">
@@ -83,7 +86,7 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
           <Hr />
         </>
       )
-    }
+    } -->
 
     {
       featuredPosts.length > 0 && (
@@ -129,6 +132,17 @@ const featuredProjects = sortedProjects.filter(({ data }) => data.featured).slic
         </section>
       )
     }
+
+    <Hr />
+
+    <section id="featured-work" class="pt-12 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide mb-6">Tags</h2>
+      <div class="space-y-2">
+        <ul>
+          {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} size="lg" />)}
+        </ul>
+      </div>
+    </section>
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
