@@ -12,5 +12,5 @@ seo:
 image: 
 src: /project-1.jpg
 alt: Project preview
-redirectUrl: https://gigeconomy.privacyinternational.org/
+redirectURL: https://gigeconomy.privacyinternational.org/
 ---

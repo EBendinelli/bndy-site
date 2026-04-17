@@ -10,5 +10,5 @@ coverImage: ../../assets/images/projects/kick-que-coute.jpg
 seo: 
     image: ../../assets/images/projects/kick-que-coute.jpg
     alt: Project preview
-redirectUrl: https://open.spotify.com/artist/0qQi34NXAIPXcYLYBATWxm?si=19cjkk09QqCqm1RUH_IFgg
+redirectURL: https://open.spotify.com/artist/0qQi34NXAIPXcYLYBATWxm?si=19cjkk09QqCqm1RUH_IFgg
 ---

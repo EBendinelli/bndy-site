@@ -175,3 +175,7 @@ p{
   border-radius: 50%;
 }
 
+.redirect-button{
+  @apply border-1 border-accent p-2;
+}
+

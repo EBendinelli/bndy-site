@@ -2,6 +2,8 @@
 title: 'Ottolenghi Generative Kitchen (OGK)'
 description: An humorous project generating potential Ottolenghi "recipes" using random Ottolenghi ingredients and qualifiers. A silly project that took 2h to come to life.
 category: "Tech"
+projectURL: https://ottolenghigenerativekitchen.netlify.app/
+sourceURL: https://github.com/EBendinelli/OGK
 featured: false
 active: false
 startDate: 2023-10-01

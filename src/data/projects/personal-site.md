@@ -2,6 +2,7 @@
 title: 'bndy.org'
 description: A blog, a portfolio, but mostly an excuse to write some code and update my web-development knowledge.
 category: "Tech"
+sourceURL: https://github.com/EBendinelli/bndy-site
 featured: false
 active: true
 startDate: 2025-03-01

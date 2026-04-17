@@ -2,6 +2,8 @@
 title: 'Make a PI'
 description: A logo generator for Privacy International's dynamic logo allowing users to pick colors, background image and opacity.
 category: "Tech"
+projectURL: https://make-a-pi.netlify.app/
+sourceURL: https://github.com/EBendinelli/make-a-pi
 featured: false
 active: false
 startDate: 2022-10-01

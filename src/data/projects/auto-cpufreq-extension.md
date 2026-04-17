@@ -2,6 +2,8 @@
 title: 'Auto-cpufreq Gnome extension'
 description: A simple governor switcher Gnome-Shell-Extension for auto-cpufreq.
 category: "Tech"
+sourceURL: https://github.com/EBendinelli/auto-cpufreq-switcher
+projectURL: https://extensions.gnome.org/extension/8320/auto-cpufreq-switcher
 featured: false
 active: false
 startDate: 2025-05-01

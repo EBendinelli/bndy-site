@@ -1,6 +1,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 import { SITE } from "@/config";
+import project from "./utils/og-templates/project";
 
 export const BLOG_PATH = "src/data/blog";
 export const PROJECTS_PATH = "src/data/projects"; 
@@ -38,7 +39,9 @@ const projects = defineCollection({
     tags: z.array(z.string()).default(["others"]),
     ogImage: image().or(z.string()).optional(),
     coverImage: image().or(z.string()).optional(),
-    redirectUrl: z.string().optional(),
+    projectURL: z.string().optional(),
+    sourceURL: z.string().optional(),
+    redirectURL: z.string().optional(),
   })
 });
 

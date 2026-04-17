@@ -10,5 +10,5 @@ coverImage: ../../assets/images/projects/cerca.jpg
 seo: 
     image: ../../assets/images/projects/cerca.jpg
     alt: Project preview
-redirectUrl: https://cerca.bandcamp.com/album/rebirth
+redirectURL: https://cerca.bandcamp.com/album/rebirth
 ---

@@ -2,6 +2,7 @@
 title: 'Le Monde Diplomatique auto-download script'
 description: A simple puppeteer script to download the epub of the latest edition of Le Monde Diplomatique.
 category: "Tech"
+sourceURL: https://gist.github.com/EBendinelli/7c51e84cfae267183013a1d8bbe11c6d
 featured: false
 active: false
 startDate: 2022-10-01
@@ -14,8 +15,6 @@ seo:
 ---
 
 A simple puppeteer script to download the epub version of the latest [Le Monde Diplomatique](https://mondediplo.com/) edition. For those too lazy to log into the site, download it manually and put it on their e-reader.
-
-https://gist.github.com/EBendinelli/7c51e84cfae267183013a1d8bbe11c6d
 
 This script runs on my raspberry pie at home. To make the most of it, I have an extra script that I call monthly with a crontab:
 

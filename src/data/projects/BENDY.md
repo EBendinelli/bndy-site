@@ -10,5 +10,5 @@ coverImage: ../../assets/images/projects/BENDY.png
 seo: 
     image: ../../assets/images/projects/BENDY.png
     alt: Project preview
-redirectUrl: https://music.bndy.org/
+redirectURL: https://music.bndy.org/
 ---

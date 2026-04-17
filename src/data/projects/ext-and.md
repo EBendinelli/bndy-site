@@ -11,5 +11,5 @@ coverImage: ../../assets/images/projects/extand.jpg
 seo: 
     image: ../../assets/images/projects/extand.jpg
     alt: Project preview
-redirectUrl: https://soundcloud.com/ext_and
+redirectURL: https://soundcloud.com/ext_and
 ---
