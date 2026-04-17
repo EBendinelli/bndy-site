@@ -89,7 +89,7 @@ html[data-theme="dark"] {
 } 
 
 @theme {
-  --font-sans: 'Inter Variable', 'sans-serif';
+  --font-sans: 'Work Sans Variable', 'sans-serif';
   --font-mono: 'Roboto Mono Variable', monospace;
   --font-headers: 'Rubik Variable', 'sans-serif';
 }
