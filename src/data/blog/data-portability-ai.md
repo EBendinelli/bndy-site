@@ -1,7 +1,7 @@
 ---
 author: Eliot Bendinelli
 pubDatetime: 2025-11-21
-modDatetime:
+modDatetime: 2026-04-05
 title: Data portability in the age of AI 
 slug: data-portability-ai
 featured: false
@@ -29,7 +29,7 @@ Joke aside, the value in data portability for AI agent could be high as these sy
 
 The good news is that the current AI agent stacks offer many opportunities to facilitate data portability. Conversations are an obvious and easy piece of the puzzle. But even what we could imagine as more advanced features like "memories" in ChatGPT or any equivalent profiling feature in AI chatbot could easily be ported given that they are basically glorified summarisation of previous conversation with inferences sprinkled on top. 
 
-Model Context Protocol (MCP) also provides another really interesting  piece of the picture. Many "tools"/"connectors" and other integrations with external functions rely on [MCP servers](https://github.com/bitbonsai/mcp-obsidian?tab=readme-ov-file#ai-client-configuration) to function, and those don't change from one service to another. The [MCP Obsidian extension](https://mcp-obsidian.org/) I use on [Jan](https://jan.ai/) works perfectly with LM Studio. Or Claude. Or any other app that supports MCP. It would not be too far-fetched to see these extensions be part of a data portability request. Indeed, MCP extension are, for the most part, simple json config files that provide your software a choice with the instructions to download the extension, and the credentials to connect to an external service if needed. Here is an example of the Obsidian extension aforementioned:
+Model Context Protocol (MCP) also provides another really interesting  piece of the picture. Many "tools"/"connectors" and other integrations with external functions rely on [MCP servers](https://github.com/bitbonsai/mcp-obsidian?tab=readme-ov-file#ai-client-configuration) to function, and those don't change from one service to another. The [MCP Obsidian extension](https://mcp-obsidian.org/) I use on [Jan](https://jan.ai/) works perfectly with LM Studio. Or Claude. Or any other app that supports MCP. It would not be too far-fetched to see these extensions be part of a data portability request. Indeed, MCP extension are, for the most part, simple json config files that provide your software a choice with the instructions to download the extension, and the credentials to connect to an external service if needed. Here is an example of a Bluesky extension that allows an AI agent to post on your behalf:
 
 ```js
 {
