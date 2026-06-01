@@ -5,7 +5,7 @@ modDatetime:
 title: How to make the internet fun again
 slug: how-to-make-the-internet-fun-again
 featured: false
-draft: true
+draft: false
 tags:
   - Internet
   - decentralisation
@@ -17,7 +17,7 @@ I like the internet. And I don't really agree with it turning into a boring plac
 
 So if you find yourself brain-rotted by endless scrolling on social media, depressed by the news cycle of major outlets or emotionally numbed by reposts of the same variation of karma-farming questions on Reddit, you're in the right place! I hope this post will be useful.
 
-# Using an RSS reader and curating curators
+## Using an RSS reader and curating curators
 
 If you don't know what RSS is, think of it as the grandmother of all internet publish-subscribe (pub/sub) models. Anyone can publish content and "advertise" it through an RSS feed, and anyone can subscribe to this feed. It's like social media except you don't need a Facebook account to participate. All you need is an RSS reader to subscribe to feeds and see new publications in one place. 
 
@@ -28,7 +28,7 @@ My favourite part about RSS is that it allows me to be deliberate about what I r
 ![Screenshot](@/assets/images/blog/RSS-aggregator.png)
 *A screenshot of what my RSS reader looks like*
 
-## Tools
+### Tools
 
 There are tons of RSS readers out there. They are fundamentally very simple pieces of software and on mobile you'll find dozens in your app store. If you want synchronisation across devices, they will usually require some sort of account so that you can login and access your feed. 
 
@@ -36,7 +36,7 @@ Personally, I use the [Nextcloud News](https://apps.nextcloud.com/apps/news) plu
 
 Most people won't have a Nextcloud instance and for those I recommend checking [Inoreader](https://www.inoreader.com/). Avoid Feedly. In general I would suggest trying and testing a few options to find what suits you. The best part about RSS as an open protocol is that it's dead simple to switch service (did someone say data portability?): simply export your feeds and import them in another app.  
 
-## Finding sites to follow
+### Finding sites to follow
 
 To populate my feed, I follow a simple rule: every time I find a blog post I enjoy, I subscribe to its RSS feed. It's the best way to see content I know I'm likely to enjoy that would otherwise be buried in the torrent of social media posts. Of course, once in a while I'll remove a feed if I find myself always ignoring its content.
 
@@ -60,7 +60,7 @@ Here are a few blogs I enjoy, in no particular order and covering fairly differe
 - [Terry Goider](https://www.terrygodier.com/feed.xml): Posts about RSS, the internet and design with lovely animations (or not if you don't want them)
 - [Smitten Kitchen](https://smittenkitchen.com/feed/): Deb's lemon bar is my favourite dessert ever. You might find something to your taste too
 
-# Joining communities
+## Joining communities
 
 RSS feed are awesome but they can feel a little one=sided (especially if you don't have your own little internet garden to post). Social media once promised to connect us but have turned into cash-making machines have forgotten their primary use case. 
 
@@ -70,7 +70,7 @@ Once in a blue moon I'll join an up-and-coming alternative "social network" just
 
 I also find joining Matrix rooms or discord server to be a good way to replace the old forums where I used to hang out (although some of those still exist and I cherish them). Some time ago, I joined [Bellingcat's discord](https://discord.com/invite/bellingcat) and joined the book club. It led me to read [Cobalt Red](https://bouquins.zbeul.fr/book/43290/s/cobalt-red) which I would have never done otherwise (note: it was incredibly depressing and heartbreaking book but I highly recommend it nonetheless). 
 
-# Following the white rabbit
+## Following the white rabbit
 
 Now onto behaviour. One way I make my internet journeys more enjoyable is by embracing randomness and being curious. Enjoyed a random post shared by someone? I'll check who the author is, what things they are interesting in, what other things they might have published. Hear someone mention a podcast, a magazine, a forum? I'll check those too, dig until I find myself bored or with too many articles in my to-read pile. 
 
@@ -78,7 +78,7 @@ Generally speaking, I **follow the white rabbit**. I click Wikipedia sources, ch
 
 Tons of people are still putting time and effort into maintaining a small corner of the internet where they post their thoughts, the things they create, their observations and challenges. Finding those in a time where AI slop is shoved down users' throats on dominant platforms, and where the internet is quickly turning into zombie AI territory, is a treasure that should be cherished through curious exploration. [A stranger's reflection on their struggle](https://giacomofolli.com/choosing-my-own-standards/) is worth a thousand AI generated posts on LinkedIn.
 
-# Big Tech
+## Big Tech
 
 I'll be lying if I said I don't use major social media platforms. I still do. A little bit of Instagram to see what my friends are up to. Some TikTok for the random videos or discovering music. There is amazing content that is unfortunately only published on those platforms right now, and I don't really want to forbid myself from accessing it. Maybe one day Loop and PixelFed will offer great content, but we're not there yet.
 
