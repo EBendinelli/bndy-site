@@ -9,6 +9,7 @@ draft: false
 tags:
   - Internet
   - decentralisation
+  - openweb
 description: Finding quirky, relatable and interesting human-made stuff on the internet to escape the zombie internet
 ---
 I don't think the internet sucks entirely. But it's hard to avoid the fact that many online spaces seem to have decided that they hate users. It's 2026 and fun and joy have simply been banned from the internet overlords' specs. Maybe this all started when Facebook killed the [Poke](https://en.wikipedia.org/wiki/List_of_Facebook_features#Poke)? Who knows.
